@@ -1,0 +1,37 @@
+Nutrient,7–9 years ,10–12 years ,13–15 years,lower_7-9,lower_10-12,lower_13-15,upper_7-9,upper_10-12,upper_13-15
+Energy [kcal/day],1800,2200,2700,,,,,,
+Protein [g/day],30,42,58,,,,,,
+Sodium [mg/day],1200,1300,1500,,,,,,
+Carbohydrates [% energy],50,50,50,45,45,45,65,65,65
+Fiber [g/day],16,19,19,,,,,,
+Fat [% energy],28,28,28,20,20,20,35,36,35
+Saturated Fatty Acids (SFA) [g/day],20.2,15.8,20.1,,,,,,
+Chloride,1850,2000,2300,,,,,,
+Added Sugar [% energy],0,0,0,0,0,0,10,10,10
+Vitamin A [μg/day],500,600,900,,,,1500,2000,2600
+Vitamin D [μg/day],15,15,15,,,,50,100,100
+Vitamin E [mg/day],7,10,10,,,,160,220,260
+Vitamin K [μg/day],25,40,50,,,,,,
+Vitamin C [mg/day],50,50,75,,,,,,
+Thiamine [mg/day],0.9,1.0,1.2,,,,,,
+Riboflavin [mg/day],0.9,1.0,1.3,,,,,,
+Niacin [mg/day],12,12,16,,,,,,
+Pantothenic acid [mg/day],4,4,5,,,,,,
+Vitamin B6 [mg/day],1.0,1.2,1.3,,,,10,15,20
+Biotin [μgday],20,25,25,,,,,,
+Folates [μg/day],300,300,400,,,,,,
+Cobalamin [μg/day],1.8,1.8,2.4,,,,,,
+Choline [mg/day],250,375,550,,,,,,
+Calcium [mg/day],1000,1300,1300,,,,,,
+Phosphorus [mg/day],600,1250,1250,,,,,,
+Magnesium [mg/day],130,240,410,,,,250,250,250
+Iron [mg/day],10,15,15,,,,,,
+Zinc [mg/day],5,8,11,,,,13,18,22
+Copper [mg/day],0.7,0.7,0.9,,,,3,4,4
+Iodine [μg/day],100,120,150,,,,300,450,500
+Selenium [μg/day],30,40,55,,,,130,200,250
+Fluoride [mg/day],1.2,2,3,,,,5,7,7
+Manganese [mg/day],1.5,1.9,2.2,,,,,,
+Sodium [mg/day],1200,1300,1500,,,,,,
+Potassium [mg/day],1800,2400,3000,,,,,,
+Chloride [mg/day],1850,2000,2300,,,,,,
