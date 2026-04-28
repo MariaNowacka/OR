@@ -22,7 +22,7 @@ U.S. dietary requirements and retail food price data.
 
 python version = 3.12.9
 
-required libraries to install: requirements.txt (based on arm64-osx)
+required libraries to install: `requirements.txt` (based on arm64-osx)
 
 **Before you run**
 
@@ -71,15 +71,15 @@ Solver: `scipy.optimize.linprog` with HiGHS backend.
 Optimal lunch menu, nutritional achievement vs. DRI bounds, and binding constraint
 analysis for each age-sex group.
 
-* [Results — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/linprog/results_children_4_8_MF.md)
+* [Results — Children 4–8](https://github.com/MariaNowacka/OR/blob/main/result/linprog_02/results_children_4_8_MF.md)
 
-* [Results — Males 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/linprog/results_males_9_13.md)
+* [Results — Males 9–13](https://github.com/MariaNowacka/OR/blob/main/result/linprog_02/results_males_9_13.md)
 
-* [Results — Females 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/linprog/results_females_9_13.md)
+* [Results — Females 9–13](https://github.com/MariaNowacka/OR/blob/main/result/linprog_02/results_females_9_13.md)
 
-* [Results — Males 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/linprog/results_males_14_18.md)
+* [Results — Males 14–18](https://github.com/MariaNowacka/OR/blob/main/result/linprog_02/results_males_14_18.md)
 
-* [Results — Females 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/linprog/results_females_14_18.md)
+* [Results — Females 14–18](https://github.com/MariaNowacka/OR/blob/main/result/linprog_02/results_females_14_18.md)
 
 Minimum costs: children 4–8 = $0.69 · males 9–13 = $0.79 · females 9–13 = $0.77 · males 14–18 = $0.93 · females 14–18 = $0.87 (per lunch, 2024 prices)
 
@@ -144,15 +144,15 @@ Dual variables sourced from `res.ineqlin.marginals` and `res.upper.marginals`
 Shadow price tables, strong duality verification ($Z^* = W^*$), and complementary
 slackness check for each age-sex group.
 
-* [Dual — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/duality/dual_children_4_8_MF.md)
+* [Dual — Children 4–8](https://github.com/MariaNowacka/OR/blob/main/result/duality_01/dual_children_4_8_MF.md)
 
-* [Dual — Males 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/duality/dual_males_9_13.md)
+* [Dual — Males 9–13](https://github.com/MariaNowacka/OR/blob/main/result/duality_01/dual_males_9_13.md)
 
-* [Dual — Females 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/duality/dual_females_9_13.md)
+* [Dual — Females 9–13](https://github.com/MariaNowacka/OR/blob/main/result/duality_01/dual_females_9_13.md)
 
-* [Dual — Males 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/duality/dual_males_14_18.md)
+* [Dual — Males 14–18](https://github.com/MariaNowacka/OR/blob/main/result/duality_01/dual_males_14_18.md)
 
-* [Dual — Females 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/duality/dual_females_14_18.md)
+* [Dual — Females 14–18](https://github.com/MariaNowacka/OR/blob/main/result/duality_01/dual_females_14_18.md)
 
 Most expensive constraint to tighten across all groups: `vitamin_d_ug`
 (shadow price ≈ $0.062 per µg increase in requirement for males 14–18)
