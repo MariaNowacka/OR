@@ -64,7 +64,7 @@ Solver: `scipy.optimize.linprog` with HiGHS backend.
 
 ### Code
 
-* [Step 00 Linear Programming](https://github.com/MariaNowacka/OR/blob/main/00_Linear_Programming.ipynb)
+* [Step 00 Linear Programming](https://github.com/MariaNowacka/OR/blob/main/code/00_Linear_Programming.ipynb)
 
 ### Results
 
@@ -101,7 +101,7 @@ to nutritional standards.
 
 ### Code
 
-* [Step 01 Sensitivity Analysis](https://github.com/MariaNowacka/OR/blob/main/01_Sensitivity_Analysis.ipynb)
+* [Step 01 Sensitivity Analysis](https://github.com/MariaNowacka/OR/blob/main/code/01_Sensitivity_Analysis.ipynb)
 
 ### Results
 
@@ -137,7 +137,7 @@ Dual variables sourced from `res.ineqlin.marginals` and `res.upper.marginals`
 
 ### Code
 
-* [Step 02 Duality](https://github.com/MariaNowacka/OR/blob/main/02_Duality.ipynb)
+* [Step 02 Duality](https://github.com/MariaNowacka/OR/blob/main/code/02_Duality.ipynb)
 
 ### Results
 
@@ -183,7 +183,7 @@ producing a more diverse and realistic menu at an increased but bounded cost.
 
 ### Code
 
-* [Step 03 Upper Bound Technique](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/code/03_Upper_Bound_Technique.ipynb)
+* [Step 03 Upper Bound Technique](https://github.com/MariaNowacka/OR/blob/main/code/03_Upper_Bound_Technique.ipynb)
 
 ### Results
 
