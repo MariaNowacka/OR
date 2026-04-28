@@ -1,0 +1,206 @@
+food_id,food_name,category,subcategory,happiness
+1,"Chicken Breast, Boneless Skinless (fresh)",Poultry,Breast,4
+2,"Chicken Breast, Boneless Skinless (frozen)",Poultry,Breast,4
+3,"Chicken Legs, Bone-In (fresh)",Poultry,Drumstick/Thigh,3
+4,"Chicken Thighs, Boneless Skinless",Poultry,Thigh,3
+5,Chicken Wings (fresh),Poultry,Wings,3
+6,Whole Chicken (fresh),Poultry,Whole Bird,2
+7,"Turkey Breast, Deli-Sliced",Poultry,Turkey,3
+8,"Turkey Breast, Roasted (whole)",Poultry,Turkey,3
+9,Ground Turkey (93% lean),Poultry,Turkey,3
+10,"Duck Breast, Roasted",Poultry,Duck,3
+11,"Ground Beef, 80% Lean",Beef,Ground,3
+12,"Ground Beef, 90% Lean",Beef,Ground,3
+13,Beef Round Roast,Beef,Roast,3
+14,Beef Chuck Roast,Beef,Roast,3
+15,Beef Sirloin Steak,Beef,Steak,3
+16,"Ribeye Steak, Bone-In",Beef,Steak,3
+17,Beef Tenderloin (Filet),Beef,Steak,3
+18,Beef Brisket,Beef,Other Cuts,3
+19,Beef Liver,Beef,Organ,3
+20,Beef Short Ribs,Beef,Ribs,3
+21,"Pork Loin Chops, Center Cut",Pork,Chops,3
+22,Pork Shoulder (Boston Butt),Pork,Shoulder,3
+23,"Pork Ribs, Baby Back",Pork,Ribs,33
+24,"Ham, Bone-In, Whole (cured)",Pork,Ham,3
+25,"Ham, Deli-Sliced (cured)",Pork,Ham,3
+26,"Bacon, Sliced (pan-fried)",Pork,Bacon,4
+27,"Pork Sausage (Italian, mild)",Pork,Sausage,3
+28,Pork Tenderloin,Pork,Tenderloin,3
+29,"Lamb Leg, Roasted",Lamb,Leg,2
+30,"Lamb Chops, Loin",Lamb,Chops,2
+31,"Tuna, Canned in Water (drained)",Fish & Seafood,Canned Fish,2
+32,"Tuna, Canned in Oil (drained)",Fish & Seafood,Canned Fish,2
+33,"Salmon, Atlantic, Farmed (fresh)",Fish & Seafood,Fresh Fish,2
+34,"Salmon, Pink, Canned (drained)",Fish & Seafood,Canned Fish,2
+35,"Tilapia, Fresh Fillet",Fish & Seafood,Fresh Fish,2
+36,"Cod, Atlantic (fresh)",Fish & Seafood,Fresh Fish,1
+37,"Shrimp, Fresh (peeled)",Fish & Seafood,Shellfish,1
+38,"Sardines, Canned in Tomato Sauce",Fish & Seafood,Canned Fish,1
+39,"Mackerel, Atlantic (canned)",Fish & Seafood,Canned Fish,1
+40,"Clams, Canned (drained)",Fish & Seafood,Shellfish,1
+41,"Catfish, Farmed (fresh fillet)",Fish & Seafood,Fresh Fish,1
+42,"Crab, Blue (fresh)",Fish & Seafood,Shellfish,1
+43,"Eggs, Grade A, Large (whole, hard-boiled)",Eggs,Eggs,3
+44,"Eggs, Grade A, Large (whole, scrambled)",Eggs,Eggs,3
+45,Egg Whites (liquid),Eggs,Eggs,2
+46,Dried Pinto Beans (cooked),Legumes,Dry Beans,3
+47,Dried Black Beans (cooked),Legumes,Dry Beans,3
+48,Dried Kidney Beans (cooked),Legumes,Dry Beans,3
+49,Dried Chickpeas / Garbanzo Beans (cooked),Legumes,Dry Beans,3
+50,"Canned Black Beans, No Salt (drained)",Legumes,Canned Beans,3
+51,Canned Chickpeas (drained),Legumes,Canned Beans,3
+52,"Lentils, Green (cooked)",Legumes,Lentils,2
+53,"Split Peas, Yellow (cooked)",Legumes,Lentils,3
+54,"Edamame (frozen, shelled, boiled)",Legumes,Soy,3
+55,"Tofu, Firm (raw)",Legumes,Soy,2
+56,"Peanut Butter, Smooth",Legumes,Nuts & Nut Butters,5
+57,Hummus (store-bought),Legumes,Soy/Legume Products,3
+58,"Almonds, Raw",Nuts & Seeds,Tree Nuts,4
+59,"Walnuts, Raw",Nuts & Seeds,Tree Nuts,4
+60,"Sunflower Seeds (kernels, dry-roasted)",Nuts & Seeds,Seeds,4
+61,"Pumpkin Seeds (pepitas, roasted)",Nuts & Seeds,Seeds,4
+62,"Flaxseeds, Whole",Nuts & Seeds,Seeds,3
+63,Chia Seeds,Nuts & Seeds,Seeds,2
+64,"Cashews, Raw",Nuts & Seeds,Tree Nuts,4
+65,"Pecans, Raw",Nuts & Seeds,Tree Nuts,4
+66,"Milk, Whole (3.25% fat), Fluid",Dairy,Fluid Milk,4
+67,"Milk, 2% Reduced Fat, Fluid",Dairy,Fluid Milk,4
+68,"Milk, 1% Low-Fat, Fluid",Dairy,Fluid Milk,4
+69,"Milk, Nonfat/Skim, Fluid",Dairy,Fluid Milk,2
+70,"Milk, Soy, Unsweetened (fortified)",Dairy,Plant-Based Milk,2
+71,"Milk, Almond, Unsweetened (fortified)",Dairy,Plant-Based Milk,3
+72,"Cheddar Cheese, Natural (sharp)",Dairy,Natural Cheese,4
+73,American Processed Cheese (sliced),Dairy,Processed Cheese,5
+74,"Mozzarella, Part-Skim",Dairy,Natural Cheese,5
+75,"Cottage Cheese, 2% Low-Fat",Dairy,Natural Cheese,2
+76,"Ricotta Cheese, Part-Skim",Dairy,Natural Cheese,3
+77,"Parmesan Cheese, Grated",Dairy,Natural Cheese,3
+78,Swiss Cheese,Dairy,Natural Cheese,2
+79,"Greek Yogurt, Plain, Nonfat",Dairy,Yogurt,3
+80,"Yogurt, Low-Fat, Plain",Dairy,Yogurt,3
+81,"Bread, White, Pan (commercially prepared)",Grains,Bread,4
+82,"Bread, Whole Wheat (commercially prepared)",Grains,Bread,4
+83,"Bagel, Plain (commercially prepared)",Grains,Bread,4
+84,"English Muffin, Plain",Grains,Bread,4
+85,"Pita Bread, White",Grains,Bread,4
+86,"Tortilla, Flour (10 ct, 8-inch)",Grains,Bread,5
+87,"Tortilla, Corn (6-inch, soft)",Grains,Bread,5
+88,"Rice, White, Long Grain (cooked)",Grains,Rice,5
+89,"Rice, Brown, Long Grain (cooked)",Grains,Rice,3
+90,"Pasta, Spaghetti, Dry, Enriched",Grains,Pasta,5
+91,"Pasta, Whole Wheat, Dry",Grains,Pasta,2
+92,"Macaroni & Cheese (from box, prepared)",Grains,Pasta,5
+93,"Oatmeal, Rolled Oats (cooked)",Grains,Cereals,3
+94,"Granola (plain, without raisins)",Grains,Cereals,4
+95,Corn Flakes Cereal (enriched),Grains,Cereals,5
+96,Raisin Bran Cereal,Grains,Cereals,5
+97,"Crackers, Whole Wheat (saltine-style)",Grains,Crackers,5
+98,Quinoa (cooked),Grains,Ancient Grains,3
+99,"Barley, Pearl (cooked)",Grains,Ancient Grains,2
+100,"Spinach, Raw",Vegetables,Leafy Greens,2
+101,"Spinach, Frozen (boiled, drained)",Vegetables,Leafy Greens,2
+102,"Kale, Raw",Vegetables,Leafy Greens,2
+103,"Romaine Lettuce, Raw",Vegetables,Leafy Greens,2
+104,"Iceberg Lettuce, Raw",Vegetables,Leafy Greens,2
+105,"Swiss Chard, Raw",Vegetables,Leafy Greens,2
+106,"Collard Greens, Raw",Vegetables,Leafy Greens,2
+107,"Broccoli, Raw",Vegetables,Cruciferous,1
+108,"Broccoli, Frozen (boiled)",Vegetables,Cruciferous,1
+109,"Cauliflower, Raw",Vegetables,Cruciferous,2
+110,"Brussels Sprouts, Raw",Vegetables,Cruciferous,1
+111,"Cabbage, Green, Raw",Vegetables,Cruciferous,2
+112,"Carrots, Raw",Vegetables,Root Vegetables,3
+113,"Potato, White, Baked with Skin",Vegetables,Root Vegetables,3
+114,"Sweet Potato, Baked with Skin",Vegetables,Root Vegetables,3
+115,"Beet, Raw",Vegetables,Root Vegetables,3
+116,"Turnip, Raw",Vegetables,Root Vegetables,2
+117,"Tomatoes, Red, Fresh",Vegetables,Other Vegetables,4
+118,"Bell Pepper, Red, Raw",Vegetables,Other Vegetables,4
+119,"Bell Pepper, Green, Raw",Vegetables,Other Vegetables,4
+120,"Onion, Raw",Vegetables,Other Vegetables,1
+121,"Garlic, Raw",Vegetables,Other Vegetables,1
+122,"Corn, Yellow, Canned (drained, no salt)",Vegetables,Other Vegetables,3
+123,"Peas, Green, Frozen (boiled)",Vegetables,Other Vegetables,3
+124,"Zucchini, Raw",Vegetables,Other Vegetables,3
+125,"Mushrooms, White, Raw",Vegetables,Other Vegetables,2
+126,"Cucumber, Raw",Vegetables,Other Vegetables,3
+127,"Celery, Raw",Vegetables,Other Vegetables,3
+128,"Avocado, Raw, Florida",Vegetables,Other Vegetables,3
+129,"Bananas, Raw",Fruits,Fresh Fruits,5
+130,"Apples, Red Delicious, Raw (with skin)",Fruits,Fresh Fruits,5
+131,"Oranges, Navel, Raw",Fruits,Fresh Fruits,5
+132,"Grapes, Seedless (red/green), Raw",Fruits,Fresh Fruits,5
+133,"Strawberries, Raw",Fruits,Fresh Fruits,5
+134,"Blueberries, Raw",Fruits,Fresh Fruits,5
+135,"Peaches, Raw",Fruits,Fresh Fruits,5
+136,"Pears, Bartlett, Raw",Fruits,Fresh Fruits,4
+137,"Pineapple, Raw",Fruits,Fresh Fruits,5
+138,"Watermelon, Raw",Fruits,Fresh Fruits,5
+139,"Cantaloupe, Raw",Fruits,Fresh Fruits,3
+140,"Mangoes, Raw",Fruits,Fresh Fruits,4
+141,"Kiwi, Raw",Fruits,Fresh Fruits,5
+142,"Raisins, Seedless",Fruits,Dried Fruits,3
+143,"Dates, Medjool, Raw",Fruits,Dried Fruits,2
+144,Dried Apricots,Fruits,Dried Fruits,3
+145,"Orange Juice, Fresh Squeezed",Fruits,Fruit Juice,5
+146,"Orange Juice, from Frozen Concentrate",Fruits,Fruit Juice,5
+147,"Apple Juice, from Concentrate",Fruits,Fruit Juice,5
+148,"Grape Juice, 100% (bottled)",Fruits,Fruit Juice,5
+149,"Butter, Unsalted (stick)",Fats & Oils,Butter,1
+150,"Margarine, Regular (tub, 80% fat)",Fats & Oils,Margarine,1
+151,"Olive Oil, Extra Virgin",Fats & Oils,Oil,1
+152,Canola Oil,Fats & Oils,Oil,1
+153,Vegetable Oil (Soybean/Canola blend),Fats & Oils,Oil,1
+154,Coconut Oil (refined),Fats & Oils,Oil,1
+155,"Mayonnaise, Regular",Condiments,Spreads,1
+156,"Mustard, Yellow (prepared)",Condiments,Condiments,1
+157,"Ketchup, Tomato",Condiments,Condiments,5
+158,"Salsa, Tomato (jarred)",Condiments,Condiments,3
+159,Soy Sauce (low-sodium),Condiments,Condiments,2
+160,Ranch Dressing (bottled),Condiments,Dressings,2
+161,"Italian Dressing (bottled, low-fat)",Condiments,Dressings,2
+162,"Hummus (classic, store-bought)",Condiments,Spreads,2
+163,"Water, Tap",Beverages,Water,3
+164,"Milk, Chocolate, Whole (1% fat)",Beverages,Flavored Milk,5
+165,"Sports Drink (Gatorade, original)",Beverages,Sports Drinks,5
+166,"Granola Bar (oats & honey, 1 bar ~35g)",Snacks,Granola/Bars,5
+167,Corn Tortilla Chips (plain),Snacks,Chips,5
+168,Potato Chips (regular/salted),Snacks,Chips,5
+169,"Pretzels (hard, plain, salted)",Snacks,Pretzels,5
+170,"Trail Mix (nuts, seeds, dried fruit)",Snacks,Mixed Snacks,5
+171,"Popcorn (air-popped, plain)",Snacks,Popcorn,5
+172,"Canned Chicken Breast (water-packed, drained)",Poultry,Canned Poultry,5
+173,Hot Dog / Frankfurter (chicken & turkey),Pork,Sausage,5
+174,"Pepperoni, Sliced",Pork,Sausage,5
+175,"Chicken Broth (low-sodium, canned)",Soups,Broth,4
+176,"Tomato Soup (condensed, prepared w/ water)",Soups,Canned Soup,4
+177,"Lentil Soup (canned, ready-to-serve)",Soups,Canned Soup,2
+178,"Cream Cheese, Regular",Dairy,Cream Products,3
+179,"Sour Cream, Regular",Dairy,Cream Products,3
+180,Heavy Whipping Cream,Dairy,Cream Products,4
+181,"Cornmeal, Whole Grain, Yellow (dry)",Grains,Other Grains,2
+182,"Bread Crumbs, Plain (dry)",Grains,Other Grains,2
+183,Couscous (cooked),Grains,Ancient Grains,3
+184,"Beef Jerky (original, beef)",Beef,Processed,3
+185,"String Cheese (part-skim mozzarella, 1 stick ~28g)",Dairy,Natural Cheese,5
+186,"Protein Powder, Whey (unflavored)",Dairy,Supplements,1
+187,"Deli Turkey, Honey (sliced)",Poultry,Processed Poultry,3
+188,"Asparagus, Raw",Vegetables,Other Vegetables,2
+189,"Artichoke, Raw (globe or French)",Vegetables,Other Vegetables,2
+190,"Eggplant, Raw",Vegetables,Other Vegetables,2
+191,"Bok Choy, Raw",Vegetables,Leafy Greens,2
+192,"Raspberries, Raw",Fruits,Fresh Fruits,5
+193,"Cherries, Sweet, Raw",Fruits,Fresh Fruits,5
+194,"Grapefruit, Pink/Red, Raw",Fruits,Fresh Fruits,5
+195,"Plums, Raw",Fruits,Fresh Fruits,5
+196,"Pomegranate, Raw (arils)",Fruits,Fresh Fruits,5
+197,Millet (cooked),Grains,Ancient Grains,3
+198,Wild Rice (cooked),Grains,Rice,2
+199,Buckwheat Groats (cooked),Grains,Ancient Grains,2
+200,Rye Bread (dark),Grains,Bread,2
+201,Brown Rice Cakes (plain),Grains,Snacks,2
+202,Mixed Greens (salad blend),Vegetables,Leafy Greens,2
+203,"Tuna Salad (canned tuna + mayo, homemade est.)",Fish & Seafood,Prepared,1
+204,Bean Burrito (canned beans + tortilla),Legumes,Prepared,3
+205,"Whole Milk Yogurt, Fruit-Flavored (low-fat)",Dairy,Yogurt,3

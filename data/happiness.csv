@@ -1,0 +1,206 @@
+food_id,food_name,category,subcategory,market_unit,price_per_unit_usd,unit_weight_g,price_per_100g_usd,price_per_1g_usd,bls_series_or_source,price_reference_period,official_data_url,notes
+1,"Chicken Breast, Boneless Skinless (fresh)",Poultry,Breast,453.6g / as purchased,4.0800,453.60,0.899471,0.00899471,APU0000FF1101,2024 avg,https://fred.stlouisfed.org/series/APU0000FF1101,FDC ID: 331960 | Prep: Cooked (roasted)
+2,"Chicken Breast, Boneless Skinless (frozen)",Poultry,Breast,680g / as purchased,3.5000,680.00,0.514706,0.00514706,APU0000FF1101 (frozen),2024 avg,https://data.bls.gov,FDC ID: 782351 | Prep: Cooked (roasted)
+3,"Chicken Legs, Bone-In (fresh)",Poultry,Drumstick/Thigh,453.6g / as purchased,1.9300,453.60,0.425485,0.00425485,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 782 | Prep: Cooked (roasted)
+4,"Chicken Thighs, Boneless Skinless",Poultry,Thigh,453.6g / as purchased,2.5000,453.60,0.551146,0.00551146,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 171477 | Prep: Cooked (roasted)
+5,Chicken Wings (fresh),Poultry,Wings,453.6g / as purchased,2.8000,453.60,0.617284,0.00617284,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 171490 | Prep: Cooked (roasted)
+6,Whole Chicken (fresh),Poultry,Whole Bird,1360g / as purchased,2.0600,"1,360.00",0.151471,0.00151471,USDA ERS Meat Price Spreads,2025 (proxy 2024),https://www.ers.usda.gov/data-products/meat-price-spreads,"FDC ID: 171477 | Prep: Cooked (roasted, meat only)"
+7,"Turkey Breast, Deli-Sliced",Poultry,Turkey,340g / as purchased,5.0000,340.00,1.470588,0.01470588,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 782558 | Prep: Ready-to-eat
+8,"Turkey Breast, Roasted (whole)",Poultry,Turkey,453.6g / as purchased,3.8000,453.60,0.837743,0.00837743,BLS CPI (poultry category),2024 avg,https://data.bls.gov,FDC ID: 171504 | Prep: Cooked (roasted)
+9,Ground Turkey (93% lean),Poultry,Turkey,453.6g / as purchased,5.5000,453.60,1.212522,0.01212522,BLS CPI (poultry),2024 approx,https://data.bls.gov,FDC ID: 171507 | Prep: Cooked (pan-browned)
+10,"Duck Breast, Roasted",Poultry,Duck,453.6g / as purchased,9.0000,453.60,1.984127,0.01984127,BLS CPI (poultry),2024 approx,https://data.bls.gov,FDC ID: 171500 | Prep: Cooked (roasted)
+11,"Ground Beef, 80% Lean",Beef,Ground,453.6g / as purchased,5.6000,453.60,1.234568,0.01234568,APU0000703112,Aug 2024,https://fred.stlouisfed.org/series/APU0000703112,FDC ID: 174032 | Prep: Cooked (pan-browned)
+12,"Ground Beef, 90% Lean",Beef,Ground,453.6g / as purchased,6.5000,453.60,1.432981,0.01432981,APU0000703112 (lean),2024 approx,https://data.bls.gov,FDC ID: 174031 | Prep: Cooked (pan-browned)
+13,Beef Round Roast,Beef,Roast,453.6g / as purchased,7.1000,453.60,1.565256,0.01565256,BLS CPI (beef & veal),2024 avg,https://data.bls.gov,FDC ID: 174182 | Prep: Cooked (roasted)
+14,Beef Chuck Roast,Beef,Roast,453.6g / as purchased,7.5000,453.60,1.653439,0.01653439,BLS CPI (beef & veal),2024 avg,https://data.bls.gov,FDC ID: 174183 | Prep: Cooked (braised)
+15,Beef Sirloin Steak,Beef,Steak,453.6g / as purchased,10.5000,453.60,2.314815,0.02314815,BLS CPI (beef & veal),2024 avg,https://data.bls.gov,FDC ID: 174300 | Prep: Cooked (broiled)
+16,"Ribeye Steak, Bone-In",Beef,Steak,453.6g / as purchased,15.0000,453.60,3.306878,0.03306878,BLS CPI (beef & veal),2024 avg,https://data.bls.gov,FDC ID: 174301 | Prep: Cooked (broiled)
+17,Beef Tenderloin (Filet),Beef,Steak,453.6g / as purchased,22.0000,453.60,4.850088,0.04850088,BLS CPI (beef & veal),2024 avg,https://data.bls.gov,FDC ID: 174302 | Prep: Cooked (broiled)
+18,Beef Brisket,Beef,Other Cuts,453.6g / as purchased,8.0000,453.60,1.763668,0.01763668,BLS CPI (beef & veal),2024 avg,https://data.bls.gov,FDC ID: 174184 | Prep: Cooked (braised)
+19,Beef Liver,Beef,Organ,453.6g / as purchased,4.0000,453.60,0.881834,0.00881834,BLS CPI (other meats),2024 approx,https://data.bls.gov,FDC ID: 168626 | Prep: Cooked (pan-fried)
+20,Beef Short Ribs,Beef,Ribs,453.6g / as purchased,9.0000,453.60,1.984127,0.01984127,BLS CPI (beef & veal),2024 avg,https://data.bls.gov,FDC ID: 174304 | Prep: Cooked (braised)
+21,"Pork Loin Chops, Center Cut",Pork,Chops,453.6g / as purchased,3.9000,453.60,0.859788,0.00859788,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 167904 | Prep: Cooked (broiled)
+22,Pork Shoulder (Boston Butt),Pork,Shoulder,453.6g / as purchased,3.5000,453.60,0.771605,0.00771605,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 168175 | Prep: Cooked (roasted)
+23,"Pork Ribs, Baby Back",Pork,Ribs,453.6g / as purchased,5.0000,453.60,1.102293,0.01102293,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 167899 | Prep: Cooked (roasted)
+24,"Ham, Bone-In, Whole (cured)",Pork,Ham,1814g / as purchased,3.2000,"1,814.00",0.176406,0.00176406,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 175296 | Prep: Cooked (roasted)
+25,"Ham, Deli-Sliced (cured)",Pork,Ham,454g / as purchased,5.6300,454.00,1.240088,0.01240088,BLS CPI,Aug 2024,https://data.bls.gov,FDC ID: 168192 | Prep: Ready-to-eat
+26,"Bacon, Sliced (pan-fried)",Pork,Bacon,454g / as purchased,7.2000,454.00,1.585903,0.01585903,APU0000FD1101,2024 avg,https://fred.stlouisfed.org/series/APU0000FD1101,FDC ID: 168181 | Prep: Cooked (pan-fried)
+27,"Pork Sausage (Italian, mild)",Pork,Sausage,454g / as purchased,4.5000,454.00,0.991189,0.00991189,BLS CPI (pork),2024 approx,https://data.bls.gov,FDC ID: 168195 | Prep: Cooked (pan-fried)
+28,Pork Tenderloin,Pork,Tenderloin,453.6g / as purchased,5.5000,453.60,1.212522,0.01212522,USDA ERS Meat Price Spreads,2024 avg,https://www.ers.usda.gov/data-products/meat-price-spreads,FDC ID: 168173 | Prep: Cooked (roasted)
+29,"Lamb Leg, Roasted",Lamb,Leg,453.6g / as purchased,9.0000,453.60,1.984127,0.01984127,BLS CPI (other meats),2024 avg,https://data.bls.gov,FDC ID: 174349 | Prep: Cooked (roasted)
+30,"Lamb Chops, Loin",Lamb,Chops,453.6g / as purchased,12.0000,453.60,2.645503,0.02645503,BLS CPI (other meats),2024 avg,https://data.bls.gov,FDC ID: 174352 | Prep: Cooked (broiled)
+31,"Tuna, Canned in Water (drained)",Fish & Seafood,Canned Fish,142g / as purchased,1.3000,142.00,0.915493,0.00915493,BLS CPI (fish & seafood),2024 avg,https://data.bls.gov,FDC ID: 175159 | Prep: Canned/drained
+32,"Tuna, Canned in Oil (drained)",Fish & Seafood,Canned Fish,142g / as purchased,1.4000,142.00,0.985915,0.00985915,BLS CPI (fish & seafood),2024 approx,https://data.bls.gov,FDC ID: 175160 | Prep: Canned/drained
+33,"Salmon, Atlantic, Farmed (fresh)",Fish & Seafood,Fresh Fish,453.6g / as purchased,8.5000,453.60,1.873898,0.01873898,BLS CPI (fish & seafood),2024 avg,https://data.bls.gov,FDC ID: 175167 | Prep: Cooked (baked)
+34,"Salmon, Pink, Canned (drained)",Fish & Seafood,Canned Fish,418g / as purchased,3.5000,418.00,0.837321,0.00837321,BLS CPI (fish & seafood),2024 approx,https://data.bls.gov,FDC ID: 175168 | Prep: Canned/drained
+35,"Tilapia, Fresh Fillet",Fish & Seafood,Fresh Fish,453.6g / as purchased,5.0000,453.60,1.102293,0.01102293,BLS CPI (fish & seafood),2024 avg,https://data.bls.gov,FDC ID: 175177 | Prep: Cooked (baked)
+36,"Cod, Atlantic (fresh)",Fish & Seafood,Fresh Fish,453.6g / as purchased,6.0000,453.60,1.322751,0.01322751,BLS CPI (fish & seafood),2024 avg,https://data.bls.gov,FDC ID: 171956 | Prep: Cooked (baked)
+37,"Shrimp, Fresh (peeled)",Fish & Seafood,Shellfish,453.6g / as purchased,9.0000,453.60,1.984127,0.01984127,BLS CPI (fish & seafood),2024 avg,https://data.bls.gov,FDC ID: 175187 | Prep: Cooked (moist heat)
+38,"Sardines, Canned in Tomato Sauce",Fish & Seafood,Canned Fish,106g / as purchased,1.8000,106.00,1.698113,0.01698113,BLS CPI (fish & seafood),2024 approx,https://data.bls.gov,FDC ID: 175172 | Prep: Canned/drained
+39,"Mackerel, Atlantic (canned)",Fish & Seafood,Canned Fish,360g / as purchased,2.5000,360.00,0.694444,0.00694444,BLS CPI (fish & seafood),2024 approx,https://data.bls.gov,FDC ID: 175174 | Prep: Canned/drained
+40,"Clams, Canned (drained)",Fish & Seafood,Shellfish,142g / as purchased,3.5000,142.00,2.464789,0.02464789,BLS CPI (fish & seafood),2024 approx,https://data.bls.gov,FDC ID: 175178 | Prep: Canned/drained
+41,"Catfish, Farmed (fresh fillet)",Fish & Seafood,Fresh Fish,453.6g / as purchased,5.5000,453.60,1.212522,0.01212522,BLS CPI (fish & seafood),2024 approx,https://data.bls.gov,FDC ID: 175176 | Prep: Cooked (dry heat)
+42,"Crab, Blue (fresh)",Fish & Seafood,Shellfish,453.6g / as purchased,12.0000,453.60,2.645503,0.02645503,BLS CPI (fish & seafood),2024 approx,https://data.bls.gov,FDC ID: 175181 | Prep: Cooked (moist heat)
+43,"Eggs, Grade A, Large (whole, hard-boiled)",Eggs,Eggs,600g / as purchased,3.3700,600.00,0.561667,0.00561667,APU0000708111,2024 annual avg,https://fred.stlouisfed.org/series/APU0000708111,FDC ID: 173423 | Prep: Cooked (hard-boiled)
+44,"Eggs, Grade A, Large (whole, scrambled)",Eggs,Eggs,600g / as purchased,3.3700,600.00,0.561667,0.00561667,APU0000708111,2024 annual avg,https://fred.stlouisfed.org/series/APU0000708111,"FDC ID: 172185 | Prep: Cooked (scrambled, plain)"
+45,Egg Whites (liquid),Eggs,Eggs,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175165 | Prep: Raw/pasteurized
+46,Dried Pinto Beans (cooked),Legumes,Dry Beans,453.6g / as purchased,1.7100,453.60,0.376984,0.00376984,BLS CPI,Aug 2024,https://data.bls.gov,FDC ID: 175196 | Prep: Cooked (boiled)
+47,Dried Black Beans (cooked),Legumes,Dry Beans,453.6g / as purchased,1.7100,453.60,0.376984,0.00376984,BLS CPI,Aug 2024,https://data.bls.gov,FDC ID: 175237 | Prep: Cooked (boiled)
+48,Dried Kidney Beans (cooked),Legumes,Dry Beans,453.6g / as purchased,2.0000,453.60,0.440917,0.00440917,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175193 | Prep: Cooked (boiled)
+49,Dried Chickpeas / Garbanzo Beans (cooked),Legumes,Dry Beans,453.6g / as purchased,2.2000,453.60,0.485009,0.00485009,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173756 | Prep: Cooked (boiled)
+50,"Canned Black Beans, No Salt (drained)",Legumes,Canned Beans,439g / as purchased,1.1000,439.00,0.250569,0.00250569,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173735 | Prep: Canned/drained
+51,Canned Chickpeas (drained),Legumes,Canned Beans,425g / as purchased,1.4000,425.00,0.329412,0.00329412,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 174289 | Prep: Canned/drained
+52,"Lentils, Green (cooked)",Legumes,Lentils,453.6g / as purchased,2.0000,453.60,0.440917,0.00440917,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172420 | Prep: Cooked (boiled)
+53,"Split Peas, Yellow (cooked)",Legumes,Lentils,453.6g / as purchased,1.8000,453.60,0.396825,0.00396825,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172422 | Prep: Cooked (boiled)
+54,"Edamame (frozen, shelled, boiled)",Legumes,Soy,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168411 | Prep: Cooked (boiled)
+55,"Tofu, Firm (raw)",Legumes,Soy,453.6g / as purchased,2.5000,453.60,0.551146,0.00551146,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172975 | Prep: Raw
+56,"Peanut Butter, Smooth",Legumes,Nuts & Nut Butters,454g / as purchased,2.6500,454.00,0.583700,0.00583700,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172470 | Prep: Ready-to-eat
+57,Hummus (store-bought),Legumes,Soy/Legume Products,425g / as purchased,3.5000,425.00,0.823529,0.00823529,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175289 | Prep: Ready-to-eat
+58,"Almonds, Raw",Nuts & Seeds,Tree Nuts,453.6g / as purchased,8.5000,453.60,1.873898,0.01873898,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170567 | Prep: Raw
+59,"Walnuts, Raw",Nuts & Seeds,Tree Nuts,453.6g / as purchased,9.0000,453.60,1.984127,0.01984127,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170187 | Prep: Raw
+60,"Sunflower Seeds (kernels, dry-roasted)",Nuts & Seeds,Seeds,453.6g / as purchased,3.5000,453.60,0.771605,0.00771605,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170563 | Prep: Dry-roasted
+61,"Pumpkin Seeds (pepitas, roasted)",Nuts & Seeds,Seeds,453.6g / as purchased,5.0000,453.60,1.102293,0.01102293,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170556 | Prep: Roasted
+62,"Flaxseeds, Whole",Nuts & Seeds,Seeds,453.6g / as purchased,3.5000,453.60,0.771605,0.00771605,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 169414 | Prep: Raw
+63,Chia Seeds,Nuts & Seeds,Seeds,340g / as purchased,7.0000,340.00,2.058824,0.02058824,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170554 | Prep: Raw
+64,"Cashews, Raw",Nuts & Seeds,Tree Nuts,453.6g / as purchased,8.0000,453.60,1.763668,0.01763668,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170162 | Prep: Raw
+65,"Pecans, Raw",Nuts & Seeds,Tree Nuts,453.6g / as purchased,10.0000,453.60,2.204586,0.02204586,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170182 | Prep: Raw
+66,"Milk, Whole (3.25% fat), Fluid",Dairy,Fluid Milk,3785g / as purchased,3.7500,"3,785.00",0.099075,0.00099075,APU0000709112,2024 avg,https://fred.stlouisfed.org/series/APU0000709112,FDC ID: 746782 | Prep: Fluid
+67,"Milk, 2% Reduced Fat, Fluid",Dairy,Fluid Milk,3785g / as purchased,3.6000,"3,785.00",0.095112,0.00095112,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 336079 | Prep: Fluid
+68,"Milk, 1% Low-Fat, Fluid",Dairy,Fluid Milk,3785g / as purchased,3.6000,"3,785.00",0.095112,0.00095112,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173441 | Prep: Fluid
+69,"Milk, Nonfat/Skim, Fluid",Dairy,Fluid Milk,3785g / as purchased,3.5000,"3,785.00",0.092470,0.00092470,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173448 | Prep: Fluid
+70,"Milk, Soy, Unsweetened (fortified)",Dairy,Plant-Based Milk,1893g / as purchased,4.5000,"1,893.00",0.237718,0.00237718,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 1097542 | Prep: Fluid
+71,"Milk, Almond, Unsweetened (fortified)",Dairy,Plant-Based Milk,1893g / as purchased,3.5000,"1,893.00",0.184892,0.00184892,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 1097544 | Prep: Fluid
+72,"Cheddar Cheese, Natural (sharp)",Dairy,Natural Cheese,454g / as purchased,5.7600,454.00,1.268722,0.01268722,BLS CPI,Aug 2024,https://data.bls.gov,FDC ID: 173414 | Prep: Ready-to-eat
+73,American Processed Cheese (sliced),Dairy,Processed Cheese,454g / as purchased,4.8400,454.00,1.066079,0.01066079,BLS CPI,Aug 2024,https://data.bls.gov,FDC ID: 173412 | Prep: Ready-to-eat
+74,"Mozzarella, Part-Skim",Dairy,Natural Cheese,454g / as purchased,5.0000,454.00,1.101322,0.01101322,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171253 | Prep: Ready-to-eat
+75,"Cottage Cheese, 2% Low-Fat",Dairy,Natural Cheese,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172179 | Prep: Ready-to-eat
+76,"Ricotta Cheese, Part-Skim",Dairy,Natural Cheese,454g / as purchased,4.0000,454.00,0.881057,0.00881057,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170854 | Prep: Ready-to-eat
+77,"Parmesan Cheese, Grated",Dairy,Natural Cheese,227g / as purchased,7.0000,227.00,3.083700,0.03083700,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171254 | Prep: Ready-to-eat
+78,Swiss Cheese,Dairy,Natural Cheese,454g / as purchased,6.5000,454.00,1.431718,0.01431718,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172183 | Prep: Ready-to-eat
+79,"Greek Yogurt, Plain, Nonfat",Dairy,Yogurt,907g / as purchased,4.0000,907.00,0.441014,0.00441014,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170903 | Prep: Ready-to-eat
+80,"Yogurt, Low-Fat, Plain",Dairy,Yogurt,907g / as purchased,3.5000,907.00,0.385888,0.00385888,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170886 | Prep: Ready-to-eat
+81,"Bread, White, Pan (commercially prepared)",Grains,Bread,454g / as purchased,1.9000,454.00,0.418502,0.00418502,APU0000702111,2024 avg,https://fred.stlouisfed.org/series/APU0000702111,FDC ID: 172686 | Prep: Ready-to-eat
+82,"Bread, Whole Wheat (commercially prepared)",Grains,Bread,454g / as purchased,2.5000,454.00,0.550661,0.00550661,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172684 | Prep: Ready-to-eat
+83,"Bagel, Plain (commercially prepared)",Grains,Bread,340g / as purchased,2.5000,340.00,0.735294,0.00735294,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 174285 | Prep: Ready-to-eat
+84,"English Muffin, Plain",Grains,Bread,312g / as purchased,3.0000,312.00,0.961538,0.00961538,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173282 | Prep: Ready-to-eat
+85,"Pita Bread, White",Grains,Bread,340g / as purchased,2.5000,340.00,0.735294,0.00735294,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 174932 | Prep: Ready-to-eat
+86,"Tortilla, Flour (10 ct, 8-inch)",Grains,Bread,496g / as purchased,3.0000,496.00,0.604839,0.00604839,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 176990 | Prep: Ready-to-eat
+87,"Tortilla, Corn (6-inch, soft)",Grains,Bread,340g / as purchased,2.5000,340.00,0.735294,0.00735294,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168901 | Prep: Ready-to-eat
+88,"Rice, White, Long Grain (cooked)",Grains,Rice,454g / as purchased,0.9200,454.00,0.202643,0.00202643,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168878 | Prep: Cooked (boiled)
+89,"Rice, Brown, Long Grain (cooked)",Grains,Rice,454g / as purchased,1.2500,454.00,0.275330,0.00275330,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168879 | Prep: Cooked (boiled)
+90,"Pasta, Spaghetti, Dry, Enriched",Grains,Pasta,454g / as purchased,1.5500,454.00,0.341410,0.00341410,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168909 | Prep: Dry
+91,"Pasta, Whole Wheat, Dry",Grains,Pasta,454g / as purchased,2.0000,454.00,0.440529,0.00440529,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168931 | Prep: Dry
+92,"Macaroni & Cheese (from box, prepared)",Grains,Pasta,206g / as purchased,1.2000,206.00,0.582524,0.00582524,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168935 | Prep: Prepared
+93,"Oatmeal, Rolled Oats (cooked)",Grains,Cereals,1191g / as purchased,4.5000,"1,191.00",0.377834,0.00377834,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173902 | Prep: Cooked (boiled w/ water)
+94,"Granola (plain, without raisins)",Grains,Cereals,340g / as purchased,4.5000,340.00,1.323529,0.01323529,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173943 | Prep: Ready-to-eat
+95,Corn Flakes Cereal (enriched),Grains,Cereals,368g / as purchased,3.0000,368.00,0.815217,0.00815217,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173879 | Prep: Ready-to-eat
+96,Raisin Bran Cereal,Grains,Cereals,539g / as purchased,3.5000,539.00,0.649351,0.00649351,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175210 | Prep: Ready-to-eat
+97,"Crackers, Whole Wheat (saltine-style)",Grains,Crackers,283g / as purchased,3.0000,283.00,1.060071,0.01060071,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172738 | Prep: Ready-to-eat
+98,Quinoa (cooked),Grains,Ancient Grains,454g / as purchased,5.5000,454.00,1.211454,0.01211454,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168917 | Prep: Cooked (boiled)
+99,"Barley, Pearl (cooked)",Grains,Ancient Grains,454g / as purchased,1.5000,454.00,0.330396,0.00330396,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170284 | Prep: Cooked (boiled)
+100,"Spinach, Raw",Vegetables,Leafy Greens,170g / as purchased,3.5000,170.00,2.058824,0.02058824,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 168462 | Prep: Raw
+101,"Spinach, Frozen (boiled, drained)",Vegetables,Leafy Greens,284g / as purchased,2.0000,284.00,0.704225,0.00704225,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169267 | Prep: Cooked (boiled)
+102,"Kale, Raw",Vegetables,Leafy Greens,340g / as purchased,2.5000,340.00,0.735294,0.00735294,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 323505 | Prep: Raw
+103,"Romaine Lettuce, Raw",Vegetables,Leafy Greens,300g / as purchased,2.0000,300.00,0.666667,0.00666667,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169247 | Prep: Raw
+104,"Iceberg Lettuce, Raw",Vegetables,Leafy Greens,300g / as purchased,1.8000,300.00,0.600000,0.00600000,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169248 | Prep: Raw
+105,"Swiss Chard, Raw",Vegetables,Leafy Greens,340g / as purchased,3.0000,340.00,0.882353,0.00882353,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169991 | Prep: Raw
+106,"Collard Greens, Raw",Vegetables,Leafy Greens,454g / as purchased,1.8000,454.00,0.396476,0.00396476,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170406 | Prep: Raw
+107,"Broccoli, Raw",Vegetables,Cruciferous,454g / as purchased,1.9000,454.00,0.418502,0.00418502,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170379 | Prep: Raw
+108,"Broccoli, Frozen (boiled)",Vegetables,Cruciferous,284g / as purchased,1.8000,284.00,0.633803,0.00633803,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 173962 | Prep: Cooked (boiled)
+109,"Cauliflower, Raw",Vegetables,Cruciferous,454g / as purchased,2.5000,454.00,0.550661,0.00550661,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169986 | Prep: Raw
+110,"Brussels Sprouts, Raw",Vegetables,Cruciferous,454g / as purchased,3.0000,454.00,0.660793,0.00660793,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170383 | Prep: Raw
+111,"Cabbage, Green, Raw",Vegetables,Cruciferous,454g / as purchased,0.8000,454.00,0.176211,0.00176211,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169975 | Prep: Raw
+112,"Carrots, Raw",Vegetables,Root Vegetables,454g / as purchased,1.0000,454.00,0.220264,0.00220264,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170393 | Prep: Raw
+113,"Potato, White, Baked with Skin",Vegetables,Root Vegetables,2268g / as purchased,4.5000,"2,268.00",0.198413,0.00198413,BLS CPI,2024 avg,https://data.bls.gov,FDC ID: 170032 | Prep: Cooked (baked)
+114,"Sweet Potato, Baked with Skin",Vegetables,Root Vegetables,454g / as purchased,1.2500,454.00,0.275330,0.00275330,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 168483 | Prep: Cooked (baked)
+115,"Beet, Raw",Vegetables,Root Vegetables,454g / as purchased,2.0000,454.00,0.440529,0.00440529,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169145 | Prep: Raw
+116,"Turnip, Raw",Vegetables,Root Vegetables,454g / as purchased,1.2000,454.00,0.264317,0.00264317,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170462 | Prep: Raw
+117,"Tomatoes, Red, Fresh",Vegetables,Other Vegetables,454g / as purchased,1.8000,454.00,0.396476,0.00396476,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170457 | Prep: Raw
+118,"Bell Pepper, Red, Raw",Vegetables,Other Vegetables,454g / as purchased,2.5000,454.00,0.550661,0.00550661,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170108 | Prep: Raw
+119,"Bell Pepper, Green, Raw",Vegetables,Other Vegetables,454g / as purchased,2.0000,454.00,0.440529,0.00440529,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170109 | Prep: Raw
+120,"Onion, Raw",Vegetables,Other Vegetables,454g / as purchased,1.0000,454.00,0.220264,0.00220264,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170000 | Prep: Raw
+121,"Garlic, Raw",Vegetables,Other Vegetables,340g / as purchased,4.0000,340.00,1.176471,0.01176471,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169230 | Prep: Raw
+122,"Corn, Yellow, Canned (drained, no salt)",Vegetables,Other Vegetables,432g / as purchased,0.9500,432.00,0.219907,0.00219907,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168408 | Prep: Canned/drained
+123,"Peas, Green, Frozen (boiled)",Vegetables,Other Vegetables,454g / as purchased,1.6000,454.00,0.352423,0.00352423,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170420 | Prep: Cooked (boiled)
+124,"Zucchini, Raw",Vegetables,Other Vegetables,454g / as purchased,1.5000,454.00,0.330396,0.00330396,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169291 | Prep: Raw
+125,"Mushrooms, White, Raw",Vegetables,Other Vegetables,284g / as purchased,2.5000,284.00,0.880282,0.00880282,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 169251 | Prep: Raw
+126,"Cucumber, Raw",Vegetables,Other Vegetables,454g / as purchased,0.8000,454.00,0.176211,0.00176211,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 168409 | Prep: Raw
+127,"Celery, Raw",Vegetables,Other Vegetables,454g / as purchased,1.5000,454.00,0.330396,0.00330396,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169988 | Prep: Raw
+128,"Avocado, Raw, Florida",Vegetables,Other Vegetables,200g / as purchased,1.5000,200.00,0.750000,0.00750000,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171706 | Prep: Raw
+129,"Bananas, Raw",Fruits,Fresh Fruits,454g / as purchased,0.6200,454.00,0.136564,0.00136564,BLS CPI,2024 avg,https://data.bls.gov,FDC ID: 173944 | Prep: Raw
+130,"Apples, Red Delicious, Raw (with skin)",Fruits,Fresh Fruits,454g / as purchased,1.5000,454.00,0.330396,0.00330396,BLS CPI,2024 avg,https://data.bls.gov,FDC ID: 171688 | Prep: Raw
+131,"Oranges, Navel, Raw",Fruits,Fresh Fruits,454g / as purchased,1.4500,454.00,0.319383,0.00319383,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 169097 | Prep: Raw
+132,"Grapes, Seedless (red/green), Raw",Fruits,Fresh Fruits,454g / as purchased,2.5000,454.00,0.550661,0.00550661,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 174683 | Prep: Raw
+133,"Strawberries, Raw",Fruits,Fresh Fruits,454g / as purchased,3.0000,454.00,0.660793,0.00660793,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 167762 | Prep: Raw
+134,"Blueberries, Raw",Fruits,Fresh Fruits,170g / as purchased,3.5000,170.00,2.058824,0.02058824,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 171711 | Prep: Raw
+135,"Peaches, Raw",Fruits,Fresh Fruits,454g / as purchased,2.5000,454.00,0.550661,0.00550661,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169928 | Prep: Raw
+136,"Pears, Bartlett, Raw",Fruits,Fresh Fruits,454g / as purchased,1.8000,454.00,0.396476,0.00396476,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169118 | Prep: Raw
+137,"Pineapple, Raw",Fruits,Fresh Fruits,900g / as purchased,2.5000,900.00,0.277778,0.00277778,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169124 | Prep: Raw
+138,"Watermelon, Raw",Fruits,Fresh Fruits,5000g / as purchased,0.6000,"5,000.00",0.012000,0.00012000,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 167765 | Prep: Raw
+139,"Cantaloupe, Raw",Fruits,Fresh Fruits,1000g / as purchased,1.2000,"1,000.00",0.120000,0.00120000,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169911 | Prep: Raw
+140,"Mangoes, Raw",Fruits,Fresh Fruits,350g / as purchased,1.5000,350.00,0.428571,0.00428571,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169910 | Prep: Raw
+141,"Kiwi, Raw",Fruits,Fresh Fruits,160g / as purchased,3.0000,160.00,1.875000,0.01875000,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 168153 | Prep: Raw
+142,"Raisins, Seedless",Fruits,Dried Fruits,510g / as purchased,4.0000,510.00,0.784314,0.00784314,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 174683 | Prep: Ready-to-eat
+143,"Dates, Medjool, Raw",Fruits,Dried Fruits,454g / as purchased,7.0000,454.00,1.541850,0.01541850,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168191 | Prep: Raw
+144,Dried Apricots,Fruits,Dried Fruits,454g / as purchased,5.0000,454.00,1.101322,0.01101322,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168163 | Prep: Ready-to-eat
+145,"Orange Juice, Fresh Squeezed",Fruits,Fruit Juice,1892g / as purchased,4.5000,"1,892.00",0.237844,0.00237844,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 169098 | Prep: Fluid
+146,"Orange Juice, from Frozen Concentrate",Fruits,Fruit Juice,341g / as purchased,2.6500,341.00,0.777126,0.00777126,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171709 | Prep: Fluid
+147,"Apple Juice, from Concentrate",Fruits,Fruit Juice,1892g / as purchased,3.0000,"1,892.00",0.158562,0.00158562,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168872 | Prep: Fluid
+148,"Grape Juice, 100% (bottled)",Fruits,Fruit Juice,1892g / as purchased,3.5000,"1,892.00",0.184989,0.00184989,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168881 | Prep: Fluid
+149,"Butter, Unsalted (stick)",Fats & Oils,Butter,454g / as purchased,5.5000,454.00,1.211454,0.01211454,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173410 | Prep: Ready-to-use
+150,"Margarine, Regular (tub, 80% fat)",Fats & Oils,Margarine,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172023 | Prep: Ready-to-use
+151,"Olive Oil, Extra Virgin",Fats & Oils,Oil,500g / as purchased,9.0000,500.00,1.800000,0.01800000,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171413 | Prep: Ready-to-use
+152,Canola Oil,Fats & Oils,Oil,946g / as purchased,4.5000,946.00,0.475687,0.00475687,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172336 | Prep: Ready-to-use
+153,Vegetable Oil (Soybean/Canola blend),Fats & Oils,Oil,1419g / as purchased,5.0000,"1,419.00",0.352361,0.00352361,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172340 | Prep: Ready-to-use
+154,Coconut Oil (refined),Fats & Oils,Oil,454g / as purchased,7.0000,454.00,1.541850,0.01541850,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173573 | Prep: Ready-to-use
+155,"Mayonnaise, Regular",Condiments,Spreads,887g / as purchased,4.5000,887.00,0.507328,0.00507328,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172739 | Prep: Ready-to-use
+156,"Mustard, Yellow (prepared)",Condiments,Condiments,340g / as purchased,3.0000,340.00,0.882353,0.00882353,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172238 | Prep: Ready-to-use
+157,"Ketchup, Tomato",Condiments,Condiments,600g / as purchased,3.5000,600.00,0.583333,0.00583333,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172949 | Prep: Ready-to-use
+158,"Salsa, Tomato (jarred)",Condiments,Condiments,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170087 | Prep: Ready-to-use
+159,Soy Sauce (low-sodium),Condiments,Condiments,600g / as purchased,3.5000,600.00,0.583333,0.00583333,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175004 | Prep: Ready-to-use
+160,Ranch Dressing (bottled),Condiments,Dressings,454g / as purchased,4.0000,454.00,0.881057,0.00881057,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171266 | Prep: Ready-to-use
+161,"Italian Dressing (bottled, low-fat)",Condiments,Dressings,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170481 | Prep: Ready-to-use
+162,"Hummus (classic, store-bought)",Condiments,Spreads,425g / as purchased,3.5000,425.00,0.823529,0.00823529,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175289 | Prep: Ready-to-use
+163,"Water, Tap",Beverages,Water,240g / as purchased,0.0000,240.00,0.000000,0.00000000,N/A – Tap water has no retail price,N/A,https://data.bls.gov,FDC ID: 174973 | Prep: Fluid
+164,"Milk, Chocolate, Whole (1% fat)",Beverages,Flavored Milk,3785g / as purchased,4.5000,"3,785.00",0.118890,0.00118890,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 167762 | Prep: Fluid
+165,"Sports Drink (Gatorade, original)",Beverages,Sports Drinks,591g / as purchased,1.5000,591.00,0.253807,0.00253807,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 174968 | Prep: Fluid
+166,"Granola Bar (oats & honey, 1 bar ~35g)",Snacks,Granola/Bars,250g / as purchased,4.5000,250.00,1.800000,0.01800000,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172749 | Prep: Ready-to-eat
+167,Corn Tortilla Chips (plain),Snacks,Chips,312g / as purchased,3.5000,312.00,1.121795,0.01121795,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 167536 | Prep: Ready-to-eat
+168,Potato Chips (regular/salted),Snacks,Chips,227g / as purchased,3.5000,227.00,1.541850,0.01541850,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 167533 | Prep: Ready-to-eat
+169,"Pretzels (hard, plain, salted)",Snacks,Pretzels,454g / as purchased,2.5000,454.00,0.550661,0.00550661,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168918 | Prep: Ready-to-eat
+170,"Trail Mix (nuts, seeds, dried fruit)",Snacks,Mixed Snacks,454g / as purchased,6.0000,454.00,1.321586,0.01321586,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173004 | Prep: Ready-to-eat
+171,"Popcorn (air-popped, plain)",Snacks,Popcorn,227g / as purchased,3.0000,227.00,1.321586,0.01321586,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 167959 | Prep: Ready-to-eat
+172,"Canned Chicken Breast (water-packed, drained)",Poultry,Canned Poultry,354g / as purchased,2.5000,354.00,0.706215,0.00706215,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 782435 | Prep: Canned/drained
+173,Hot Dog / Frankfurter (chicken & turkey),Pork,Sausage,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172937 | Prep: Ready-to-eat
+174,"Pepperoni, Sliced",Pork,Sausage,227g / as purchased,5.5000,227.00,2.422907,0.02422907,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 167863 | Prep: Ready-to-eat
+175,"Chicken Broth (low-sodium, canned)",Soups,Broth,411g / as purchased,2.0000,411.00,0.486618,0.00486618,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175175 | Prep: Fluid
+176,"Tomato Soup (condensed, prepared w/ water)",Soups,Canned Soup,298g / as purchased,1.2000,298.00,0.402685,0.00402685,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 172947 | Prep: Prepared
+177,"Lentil Soup (canned, ready-to-serve)",Soups,Canned Soup,432g / as purchased,2.5000,432.00,0.578704,0.00578704,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 175173 | Prep: Ready-to-serve
+178,"Cream Cheese, Regular",Dairy,Cream Products,227g / as purchased,3.5000,227.00,1.541850,0.01541850,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171250 | Prep: Ready-to-eat
+179,"Sour Cream, Regular",Dairy,Cream Products,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171257 | Prep: Ready-to-eat
+180,Heavy Whipping Cream,Dairy,Cream Products,473g / as purchased,4.5000,473.00,0.951374,0.00951374,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170859 | Prep: Fluid
+181,"Cornmeal, Whole Grain, Yellow (dry)",Grains,Other Grains,680g / as purchased,2.0000,680.00,0.294118,0.00294118,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170288 | Prep: Dry
+182,"Bread Crumbs, Plain (dry)",Grains,Other Grains,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168921 | Prep: Ready-to-use
+183,Couscous (cooked),Grains,Ancient Grains,454g / as purchased,2.5000,454.00,0.550661,0.00550661,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 169700 | Prep: Cooked
+184,"Beef Jerky (original, beef)",Beef,Processed,200g / as purchased,10.0000,200.00,5.000000,0.05000000,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 167859 | Prep: Ready-to-eat
+185,"String Cheese (part-skim mozzarella, 1 stick ~28g)",Dairy,Natural Cheese,224g / as purchased,5.5000,224.00,2.455357,0.02455357,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 171253 | Prep: Ready-to-eat
+186,"Protein Powder, Whey (unflavored)",Dairy,Supplements,907g / as purchased,25.0000,907.00,2.756340,0.02756340,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 173178 | Prep: Powder
+187,"Deli Turkey, Honey (sliced)",Poultry,Processed Poultry,340g / as purchased,5.5000,340.00,1.617647,0.01617647,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168187 | Prep: Ready-to-eat
+188,"Asparagus, Raw",Vegetables,Other Vegetables,454g / as purchased,3.5000,454.00,0.770925,0.00770925,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 168390 | Prep: Raw
+189,"Artichoke, Raw (globe or French)",Vegetables,Other Vegetables,200g / as purchased,2.5000,200.00,1.250000,0.01250000,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169205 | Prep: Raw
+190,"Eggplant, Raw",Vegetables,Other Vegetables,454g / as purchased,1.5000,454.00,0.330396,0.00330396,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169225 | Prep: Raw
+191,"Bok Choy, Raw",Vegetables,Leafy Greens,454g / as purchased,1.5000,454.00,0.330396,0.00330396,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 170390 | Prep: Raw
+192,"Raspberries, Raw",Fruits,Fresh Fruits,170g / as purchased,3.5000,170.00,2.058824,0.02058824,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 167755 | Prep: Raw
+193,"Cherries, Sweet, Raw",Fruits,Fresh Fruits,454g / as purchased,4.5000,454.00,0.991189,0.00991189,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 171719 | Prep: Raw
+194,"Grapefruit, Pink/Red, Raw",Fruits,Fresh Fruits,400g / as purchased,1.5000,400.00,0.375000,0.00375000,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 174673 | Prep: Raw
+195,"Plums, Raw",Fruits,Fresh Fruits,454g / as purchased,2.0000,454.00,0.440529,0.00440529,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169941 | Prep: Raw
+196,"Pomegranate, Raw (arils)",Fruits,Fresh Fruits,350g / as purchased,3.5000,350.00,1.000000,0.01000000,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 169134 | Prep: Raw
+197,Millet (cooked),Grains,Ancient Grains,454g / as purchased,2.5000,454.00,0.550661,0.00550661,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 169702 | Prep: Cooked
+198,Wild Rice (cooked),Grains,Rice,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168879 | Prep: Cooked
+199,Buckwheat Groats (cooked),Grains,Ancient Grains,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170284 | Prep: Cooked
+200,Rye Bread (dark),Grains,Bread,454g / as purchased,3.5000,454.00,0.770925,0.00770925,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170892 | Prep: Ready-to-eat
+201,Brown Rice Cakes (plain),Grains,Snacks,100g / as purchased,3.0000,100.00,3.000000,0.03000000,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 168877 | Prep: Ready-to-eat
+202,Mixed Greens (salad blend),Vegetables,Leafy Greens,170g / as purchased,3.5000,170.00,2.058824,0.02058824,USDA ERS Fruit & Vegetable Prices,2024,https://www.ers.usda.gov/topics/food-markets-prices,FDC ID: 323505 | Prep: Raw
+203,"Tuna Salad (canned tuna + mayo, homemade est.)",Fish & Seafood,Prepared,142g / as purchased,2.5000,142.00,1.760563,0.01760563,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 782 | Prep: Prepared (estimated)
+204,Bean Burrito (canned beans + tortilla),Legumes,Prepared,270g / as purchased,1.5000,270.00,0.555556,0.00555556,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 782 | Prep: Prepared (estimated)
+205,"Whole Milk Yogurt, Fruit-Flavored (low-fat)",Dairy,Yogurt,170g / as purchased,1.2000,170.00,0.705882,0.00705882,BLS CPI,2024 approx,https://data.bls.gov,FDC ID: 170903 | Prep: Ready-to-eat
