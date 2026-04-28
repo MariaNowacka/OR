@@ -121,7 +121,9 @@ Ranging tables for objective coefficients and RHS constraints per age-sex group.
 
 Derives and analyses the dual problem associated with the primal cost-minimisation LP.
 
-**Dual objective**: $$W^* = \mathbf{b}_{ub}^\top \boldsymbol{\mu} + x_{ub} \cdot \mathbf{1}^\top \boldsymbol{\lambda}_{ub}$$
+**Dual objective**:
+
+$$W^* = \mathbf{b}_{ub}^\top \boldsymbol{\mu} + x_{ub} \cdot \mathbf{1}^\top \boldsymbol{\lambda}_{ub}$$
 
 **Shadow prices** ($\mu_k$): marginal cost of tightening each nutritional constraint by
 one unit. A shadow price of $s$ on nutrient $j$ means: requiring 1 more unit of nutrient
