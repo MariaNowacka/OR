@@ -165,7 +165,7 @@ large quantities of fluid milk and vegetable oil.
 
 **Motivation**: the Step 00 solution (e.g. 270 g milk + 90 g dry cornmeal) is
 nutritionally valid but not a realistic school lunch menu. The Upper Bound Technique
-from the lecture (Lecture 05-00) is the formal mechanism for handling bounded variables
+is the formal mechanism for handling bounded variables
 efficiently within simplex without expanding the constraint matrix.
 
 **Category-specific caps applied**:
