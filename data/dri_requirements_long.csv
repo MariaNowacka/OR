@@ -1,0 +1,146 @@
+age_sex_group,sex,age_range,grade_group_nslp,nutrient,unit,dri_type,constraint_type,daily_dri_value,lunch_lb_30pct,lunch_ub_35pct_or_nslp,source
+children_4_8_MF,MF,4-8,K-5,energy_kcal,kcal,NSLP_range,range,1400,550.0,650.0,USDA NSLP Meal Pattern 2024; Federal Register 2024-08098
+children_4_8_MF,MF,4-8,K-5,protein_g,g,RDA,min,19.0,5.7,6.65,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+children_4_8_MF,MF,4-8,K-5,total_fat_g,g,AMDR_25-35pct_energy,range,46.7,14.01,23.3333,IOM DRI Macronutrients 2005 (AMDR 25-35%); nap.nationalacademies.org/catalog/10490
+children_4_8_MF,MF,4-8,K-5,carbohydrates_g,g,RDA,min,130.0,39.0,45.5,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+children_4_8_MF,MF,4-8,K-5,dietary_fiber_g,g,AI,min,25.0,7.5,8.75,IOM DRI Macronutrients 2005 (AI); nap.nationalacademies.org/catalog/10490
+children_4_8_MF,MF,4-8,K-5,sugars_g,g,LIMIT_added_sugars_10pct_energy,max,35.0,,15.0,DGA 2020-2025 (added sugars <10% energy); dietaryguidelines.gov
+children_4_8_MF,MF,4-8,K-5,saturated_fat_g,g,LIMIT_10pct_energy,max,15.6,,6.6667,DGA 2020-2025 (<10% total energy); dietaryguidelines.gov
+children_4_8_MF,MF,4-8,K-5,monounsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+children_4_8_MF,MF,4-8,K-5,polyunsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+children_4_8_MF,MF,4-8,K-5,cholesterol_mg,mg,NO_DRI_minimize,no_constraint,,,,No numeric DRI; DGA 2020-2025 recommends minimizing
+children_4_8_MF,MF,4-8,K-5,calcium_mg,mg,RDA,min,1000.0,300.0,350.0,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+children_4_8_MF,MF,4-8,K-5,iron_mg,mg,RDA,min,10.0,3.0,3.5,"IOM DRI Vitamins A,K,Arsenic,Boron... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,magnesium_mg,mg,RDA,min,130.0,39.0,45.5,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+children_4_8_MF,MF,4-8,K-5,phosphorus_mg,mg,RDA,min,500.0,150.0,175.0,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+children_4_8_MF,MF,4-8,K-5,potassium_mg,mg,AI,min,2300.0,690.0,805.0,NASEM DRI Sodium & Potassium 2019; nap.nationalacademies.org/catalog/25353
+children_4_8_MF,MF,4-8,K-5,sodium_mg,mg,UL_NSLP_limit,max,1500.0,,1110.0,NASEM DRI Sodium & Potassium 2019 (UL) + NSLP 2024 (lunch limit)
+children_4_8_MF,MF,4-8,K-5,zinc_mg,mg,RDA,min,5.0,1.5,1.75,"IOM DRI Vitamins A,K,... Zinc 2001; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,vitamin_a_ug_rae,ug_RAE,RDA,min,400.0,120.0,140.0,"IOM DRI Vitamin A,K,... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,vitamin_d_ug,ug,RDA,min,15.0,4.5,5.25,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+children_4_8_MF,MF,4-8,K-5,vitamin_e_mg_ate,mg_alpha_TE,RDA,min,7.0,2.1,2.45,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,vitamin_k_ug,ug,AI,min,55.0,16.5,19.25,"IOM DRI Vitamins A,K,... 2001 (AI); ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,vitamin_c_mg,mg,RDA,min,25.0,7.5,8.75,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,thiamin_b1_mg,mg,RDA,min,0.6,0.18,0.21,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,riboflavin_b2_mg,mg,RDA,min,0.6,0.18,0.21,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,niacin_b3_mg,mg_NE,RDA,min,8.0,2.4,2.8,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,vitamin_b6_mg,mg,RDA,min,0.6,0.18,0.21,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,folate_ug_dfe,ug_DFE,RDA,min,200.0,60.0,70.0,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,vitamin_b12_ug,ug,RDA,min,1.2,0.36,0.42,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+children_4_8_MF,MF,4-8,K-5,selenium_ug,ug,RDA,min,30.0,9.0,10.5,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,energy_kcal,kcal,NSLP_range,range,1800,600.0,700.0,USDA NSLP Meal Pattern 2024; Federal Register 2024-08098
+males_9_13,M,9-13,6-8,protein_g,g,RDA,min,34.0,10.2,11.9,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+males_9_13,M,9-13,6-8,total_fat_g,g,AMDR_25-35pct_energy,range,60.0,18.0,25.2778,IOM DRI Macronutrients 2005 (AMDR 25-35%); nap.nationalacademies.org/catalog/10490
+males_9_13,M,9-13,6-8,carbohydrates_g,g,RDA,min,130.0,39.0,45.5,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+males_9_13,M,9-13,6-8,dietary_fiber_g,g,AI,min,31.0,9.3,10.85,IOM DRI Macronutrients 2005 (AI); nap.nationalacademies.org/catalog/10490
+males_9_13,M,9-13,6-8,sugars_g,g,LIMIT_added_sugars_10pct_energy,max,45.0,,16.25,DGA 2020-2025 (added sugars <10% energy); dietaryguidelines.gov
+males_9_13,M,9-13,6-8,saturated_fat_g,g,LIMIT_10pct_energy,max,20.0,,7.2222,DGA 2020-2025 (<10% total energy); dietaryguidelines.gov
+males_9_13,M,9-13,6-8,monounsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+males_9_13,M,9-13,6-8,polyunsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+males_9_13,M,9-13,6-8,cholesterol_mg,mg,NO_DRI_minimize,no_constraint,,,,No numeric DRI; DGA 2020-2025 recommends minimizing
+males_9_13,M,9-13,6-8,calcium_mg,mg,RDA,min,1300.0,390.0,455.0,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+males_9_13,M,9-13,6-8,iron_mg,mg,RDA,min,8.0,2.4,2.8,"IOM DRI Vitamins A,K,Arsenic,Boron... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,magnesium_mg,mg,RDA,min,240.0,72.0,84.0,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+males_9_13,M,9-13,6-8,phosphorus_mg,mg,RDA,min,1250.0,375.0,437.5,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+males_9_13,M,9-13,6-8,potassium_mg,mg,AI,min,2500.0,750.0,875.0,NASEM DRI Sodium & Potassium 2019; nap.nationalacademies.org/catalog/25353
+males_9_13,M,9-13,6-8,sodium_mg,mg,UL_NSLP_limit,max,2300.0,,1225.0,NASEM DRI Sodium & Potassium 2019 (UL) + NSLP 2024 (lunch limit)
+males_9_13,M,9-13,6-8,zinc_mg,mg,RDA,min,8.0,2.4,2.8,"IOM DRI Vitamins A,K,... Zinc 2001; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,vitamin_a_ug_rae,ug_RAE,RDA,min,600.0,180.0,210.0,"IOM DRI Vitamin A,K,... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,vitamin_d_ug,ug,RDA,min,15.0,4.5,5.25,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+males_9_13,M,9-13,6-8,vitamin_e_mg_ate,mg_alpha_TE,RDA,min,11.0,3.3,3.85,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,vitamin_k_ug,ug,AI,min,60.0,18.0,21.0,"IOM DRI Vitamins A,K,... 2001 (AI); ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,vitamin_c_mg,mg,RDA,min,45.0,13.5,15.75,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,thiamin_b1_mg,mg,RDA,min,0.9,0.27,0.315,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,riboflavin_b2_mg,mg,RDA,min,0.9,0.27,0.315,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,niacin_b3_mg,mg_NE,RDA,min,12.0,3.6,4.2,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,vitamin_b6_mg,mg,RDA,min,1.0,0.3,0.35,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,folate_ug_dfe,ug_DFE,RDA,min,300.0,90.0,105.0,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,vitamin_b12_ug,ug,RDA,min,1.8,0.54,0.63,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_9_13,M,9-13,6-8,selenium_ug,ug,RDA,min,40.0,12.0,14.0,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,energy_kcal,kcal,NSLP_range,range,1600,600.0,700.0,USDA NSLP Meal Pattern 2024; Federal Register 2024-08098
+females_9_13,F,9-13,6-8,protein_g,g,RDA,min,34.0,10.2,11.9,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+females_9_13,F,9-13,6-8,total_fat_g,g,AMDR_25-35pct_energy,range,53.3,15.99,25.2778,IOM DRI Macronutrients 2005 (AMDR 25-35%); nap.nationalacademies.org/catalog/10490
+females_9_13,F,9-13,6-8,carbohydrates_g,g,RDA,min,130.0,39.0,45.5,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+females_9_13,F,9-13,6-8,dietary_fiber_g,g,AI,min,26.0,7.8,9.1,IOM DRI Macronutrients 2005 (AI); nap.nationalacademies.org/catalog/10490
+females_9_13,F,9-13,6-8,sugars_g,g,LIMIT_added_sugars_10pct_energy,max,40.0,,16.25,DGA 2020-2025 (added sugars <10% energy); dietaryguidelines.gov
+females_9_13,F,9-13,6-8,saturated_fat_g,g,LIMIT_10pct_energy,max,17.8,,7.2222,DGA 2020-2025 (<10% total energy); dietaryguidelines.gov
+females_9_13,F,9-13,6-8,monounsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+females_9_13,F,9-13,6-8,polyunsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+females_9_13,F,9-13,6-8,cholesterol_mg,mg,NO_DRI_minimize,no_constraint,,,,No numeric DRI; DGA 2020-2025 recommends minimizing
+females_9_13,F,9-13,6-8,calcium_mg,mg,RDA,min,1300.0,390.0,455.0,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+females_9_13,F,9-13,6-8,iron_mg,mg,RDA,min,8.0,2.4,2.8,"IOM DRI Vitamins A,K,Arsenic,Boron... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,magnesium_mg,mg,RDA,min,240.0,72.0,84.0,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+females_9_13,F,9-13,6-8,phosphorus_mg,mg,RDA,min,1250.0,375.0,437.5,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+females_9_13,F,9-13,6-8,potassium_mg,mg,AI,min,2300.0,690.0,805.0,NASEM DRI Sodium & Potassium 2019; nap.nationalacademies.org/catalog/25353
+females_9_13,F,9-13,6-8,sodium_mg,mg,UL_NSLP_limit,max,2300.0,,1225.0,NASEM DRI Sodium & Potassium 2019 (UL) + NSLP 2024 (lunch limit)
+females_9_13,F,9-13,6-8,zinc_mg,mg,RDA,min,8.0,2.4,2.8,"IOM DRI Vitamins A,K,... Zinc 2001; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,vitamin_a_ug_rae,ug_RAE,RDA,min,600.0,180.0,210.0,"IOM DRI Vitamin A,K,... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,vitamin_d_ug,ug,RDA,min,15.0,4.5,5.25,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+females_9_13,F,9-13,6-8,vitamin_e_mg_ate,mg_alpha_TE,RDA,min,11.0,3.3,3.85,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,vitamin_k_ug,ug,AI,min,60.0,18.0,21.0,"IOM DRI Vitamins A,K,... 2001 (AI); ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,vitamin_c_mg,mg,RDA,min,45.0,13.5,15.75,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,thiamin_b1_mg,mg,RDA,min,0.9,0.27,0.315,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,riboflavin_b2_mg,mg,RDA,min,0.9,0.27,0.315,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,niacin_b3_mg,mg_NE,RDA,min,12.0,3.6,4.2,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,vitamin_b6_mg,mg,RDA,min,1.0,0.3,0.35,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,folate_ug_dfe,ug_DFE,RDA,min,300.0,90.0,105.0,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,vitamin_b12_ug,ug,RDA,min,1.8,0.54,0.63,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_9_13,F,9-13,6-8,selenium_ug,ug,RDA,min,40.0,12.0,14.0,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,energy_kcal,kcal,NSLP_range,range,2600,750.0,850.0,USDA NSLP Meal Pattern 2024; Federal Register 2024-08098
+males_14_18,M,14-18,9-12,protein_g,g,RDA,min,52.0,15.6,18.2,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+males_14_18,M,14-18,9-12,total_fat_g,g,AMDR_25-35pct_energy,range,86.7,26.01,31.1111,IOM DRI Macronutrients 2005 (AMDR 25-35%); nap.nationalacademies.org/catalog/10490
+males_14_18,M,14-18,9-12,carbohydrates_g,g,RDA,min,130.0,39.0,45.5,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+males_14_18,M,14-18,9-12,dietary_fiber_g,g,AI,min,38.0,11.4,13.3,IOM DRI Macronutrients 2005 (AI); nap.nationalacademies.org/catalog/10490
+males_14_18,M,14-18,9-12,sugars_g,g,LIMIT_added_sugars_10pct_energy,max,65.0,,20.0,DGA 2020-2025 (added sugars <10% energy); dietaryguidelines.gov
+males_14_18,M,14-18,9-12,saturated_fat_g,g,LIMIT_10pct_energy,max,28.9,,8.8889,DGA 2020-2025 (<10% total energy); dietaryguidelines.gov
+males_14_18,M,14-18,9-12,monounsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+males_14_18,M,14-18,9-12,polyunsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+males_14_18,M,14-18,9-12,cholesterol_mg,mg,NO_DRI_minimize,no_constraint,,,,No numeric DRI; DGA 2020-2025 recommends minimizing
+males_14_18,M,14-18,9-12,calcium_mg,mg,RDA,min,1300.0,390.0,455.0,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+males_14_18,M,14-18,9-12,iron_mg,mg,RDA,min,11.0,3.3,3.85,"IOM DRI Vitamins A,K,Arsenic,Boron... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,magnesium_mg,mg,RDA,min,410.0,123.0,143.5,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+males_14_18,M,14-18,9-12,phosphorus_mg,mg,RDA,min,1250.0,375.0,437.5,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+males_14_18,M,14-18,9-12,potassium_mg,mg,AI,min,3000.0,900.0,1050.0,NASEM DRI Sodium & Potassium 2019; nap.nationalacademies.org/catalog/25353
+males_14_18,M,14-18,9-12,sodium_mg,mg,UL_NSLP_limit,max,2300.0,,1280.0,NASEM DRI Sodium & Potassium 2019 (UL) + NSLP 2024 (lunch limit)
+males_14_18,M,14-18,9-12,zinc_mg,mg,RDA,min,11.0,3.3,3.85,"IOM DRI Vitamins A,K,... Zinc 2001; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,vitamin_a_ug_rae,ug_RAE,RDA,min,900.0,270.0,315.0,"IOM DRI Vitamin A,K,... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,vitamin_d_ug,ug,RDA,min,15.0,4.5,5.25,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+males_14_18,M,14-18,9-12,vitamin_e_mg_ate,mg_alpha_TE,RDA,min,15.0,4.5,5.25,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,vitamin_k_ug,ug,AI,min,75.0,22.5,26.25,"IOM DRI Vitamins A,K,... 2001 (AI); ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,vitamin_c_mg,mg,RDA,min,75.0,22.5,26.25,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,thiamin_b1_mg,mg,RDA,min,1.2,0.36,0.42,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,riboflavin_b2_mg,mg,RDA,min,1.3,0.39,0.455,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,niacin_b3_mg,mg_NE,RDA,min,16.0,4.8,5.6,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,vitamin_b6_mg,mg,RDA,min,1.3,0.39,0.455,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,folate_ug_dfe,ug_DFE,RDA,min,400.0,120.0,140.0,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,vitamin_b12_ug,ug,RDA,min,2.4,0.72,0.84,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+males_14_18,M,14-18,9-12,selenium_ug,ug,RDA,min,55.0,16.5,19.25,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,energy_kcal,kcal,NSLP_range,range,2000,750.0,850.0,USDA NSLP Meal Pattern 2024; Federal Register 2024-08098
+females_14_18,F,14-18,9-12,protein_g,g,RDA,min,46.0,13.8,16.1,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+females_14_18,F,14-18,9-12,total_fat_g,g,AMDR_25-35pct_energy,range,66.7,20.01,31.1111,IOM DRI Macronutrients 2005 (AMDR 25-35%); nap.nationalacademies.org/catalog/10490
+females_14_18,F,14-18,9-12,carbohydrates_g,g,RDA,min,130.0,39.0,45.5,IOM DRI Macronutrients 2005; nap.nationalacademies.org/catalog/10490
+females_14_18,F,14-18,9-12,dietary_fiber_g,g,AI,min,26.0,7.8,9.1,IOM DRI Macronutrients 2005 (AI); nap.nationalacademies.org/catalog/10490
+females_14_18,F,14-18,9-12,sugars_g,g,LIMIT_added_sugars_10pct_energy,max,50.0,,20.0,DGA 2020-2025 (added sugars <10% energy); dietaryguidelines.gov
+females_14_18,F,14-18,9-12,saturated_fat_g,g,LIMIT_10pct_energy,max,22.2,,8.8889,DGA 2020-2025 (<10% total energy); dietaryguidelines.gov
+females_14_18,F,14-18,9-12,monounsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+females_14_18,F,14-18,9-12,polyunsaturated_fat_g,g,NO_DRI,no_constraint,,,,No DRI established; IOM DRI Macronutrients 2005
+females_14_18,F,14-18,9-12,cholesterol_mg,mg,NO_DRI_minimize,no_constraint,,,,No numeric DRI; DGA 2020-2025 recommends minimizing
+females_14_18,F,14-18,9-12,calcium_mg,mg,RDA,min,1300.0,390.0,455.0,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+females_14_18,F,14-18,9-12,iron_mg,mg,RDA,min,15.0,4.5,5.25,"IOM DRI Vitamins A,K,Arsenic,Boron... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,magnesium_mg,mg,RDA,min,360.0,108.0,126.0,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+females_14_18,F,14-18,9-12,phosphorus_mg,mg,RDA,min,1250.0,375.0,437.5,"IOM DRI Calcium,Phosphorus,Magnesium,Vit D 1997; nap.nationalacademies.org/catalog/5776"
+females_14_18,F,14-18,9-12,potassium_mg,mg,AI,min,2300.0,690.0,805.0,NASEM DRI Sodium & Potassium 2019; nap.nationalacademies.org/catalog/25353
+females_14_18,F,14-18,9-12,sodium_mg,mg,UL_NSLP_limit,max,2300.0,,1280.0,NASEM DRI Sodium & Potassium 2019 (UL) + NSLP 2024 (lunch limit)
+females_14_18,F,14-18,9-12,zinc_mg,mg,RDA,min,9.0,2.7,3.15,"IOM DRI Vitamins A,K,... Zinc 2001; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,vitamin_a_ug_rae,ug_RAE,RDA,min,700.0,210.0,245.0,"IOM DRI Vitamin A,K,... 2001; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,vitamin_d_ug,ug,RDA,min,15.0,4.5,5.25,IOM DRI Calcium & Vitamin D 2011; nap.nationalacademies.org/catalog/13050
+females_14_18,F,14-18,9-12,vitamin_e_mg_ate,mg_alpha_TE,RDA,min,15.0,4.5,5.25,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,vitamin_k_ug,ug,AI,min,75.0,22.5,26.25,"IOM DRI Vitamins A,K,... 2001 (AI); ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,vitamin_c_mg,mg,RDA,min,65.0,19.5,22.75,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,thiamin_b1_mg,mg,RDA,min,1.0,0.3,0.35,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,riboflavin_b2_mg,mg,RDA,min,1.0,0.3,0.35,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,niacin_b3_mg,mg_NE,RDA,min,14.0,4.2,4.9,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,vitamin_b6_mg,mg,RDA,min,1.2,0.36,0.42,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,folate_ug_dfe,ug_DFE,RDA,min,400.0,120.0,140.0,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,vitamin_b12_ug,ug,RDA,min,2.4,0.72,0.84,"IOM DRI Thiamin,Riboflavin,Niacin,B6,Folate,B12... 1998; ncbi.nlm.nih.gov/books/NBK56068"
+females_14_18,F,14-18,9-12,selenium_ug,ug,RDA,min,55.0,16.5,19.25,"IOM DRI Vitamins C,E,Selenium,Carotenoids 2000; ncbi.nlm.nih.gov/books/NBK56068"
