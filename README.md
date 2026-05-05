@@ -95,7 +95,7 @@ The baseline LP in Step 00 produces a theoretically optimal but unrealistic solu
 as many grams as possible into the cheapest nutrient-dense foods regardless of meal structure. When food
 group acceptability constraints are introduced:
 
-sum_{i in I_g} x_i <= U_g   for all g in G
+$\sum_{i\text{ in }I_g} x_i <= U_g$   for all g in G
 
 the baseline optimal solution x* violates these new caps, creating the exact initialisation condition
 for the Dual Simplex Method:
