@@ -1,7 +1,7 @@
 # LP Results — Females 14 18
 
 **Solver status:** Optimal  
-**Minimum lunch cost:** $1.0198 USD
+**Minimum lunch cost:** $1.0610 USD
 
 ## Optimal Lunch Foods
 
@@ -9,16 +9,14 @@ The LP selected these foods and gram quantities to satisfy all nutritional const
 
 | # | Food | Portion (g) | Cost (USD) | Cost share (%) |
 |---|------|------------:|------------:|---------------:|
-| 1 | Collard Greens, Raw | 58.8 | $0.23293 | 22.8% |
-| 2 | Cornmeal, Whole Grain, Yellow (dry) | 77.2 | $0.22718 | 22.3% |
-| 3 | Salmon, Pink, Canned (drained) | 21.4 | $0.17884 | 17.5% |
-| 4 | Milk, 2% Reduced Fat, Fluid | 150.0 | $0.14267 | 14.0% |
-| 5 | Whole Chicken (fresh) | 78.6 | $0.11912 | 11.7% |
-| 6 | Mayonnaise, Regular | 14.1 | $0.07142 | 7.0% |
-| 7 | Sunflower Seeds (kernels, dry-roasted) | 2.8 | $0.02152 | 2.1% |
-| 8 | Watermelon, Raw | 120.0 | $0.01440 | 1.4% |
-| 9 | Vegetable Oil (Soybean/Canola blend) | 3.0 | $0.01057 | 1.0% |
-| 10 | Raisin Bran Cereal | 0.2 | $0.00115 | 0.1% |
+| 1 | Cornmeal, Whole Grain, Yellow (dry) | 116.9 | $0.34380 | 32.4% |
+| 2 | Collard Greens, Raw | 62.3 | $0.24705 | 23.3% |
+| 3 | Salmon, Pink, Canned (drained) | 20.1 | $0.16789 | 15.8% |
+| 4 | Milk, 2% Reduced Fat, Fluid | 140.2 | $0.13339 | 12.6% |
+| 5 | Mayonnaise, Regular | 25.8 | $0.13082 | 12.3% |
+| 6 | Milk, Almond, Unsweetened (fortified) | 9.8 | $0.01803 | 1.7% |
+| 7 | Vegetable Oil (Soybean/Canola blend) | 3.0 | $0.01057 | 1.0% |
+| 8 | Cheddar Cheese, Natural (sharp) | 0.7 | $0.00941 | 0.9% |
 
 ## Nutritional Achievement vs. DRI Bounds
 
@@ -29,40 +27,40 @@ The LP selected these foods and gram quantities to satisfy all nutritional const
 | Nutrient | Achieved | LB | UB | LB slack | UB slack | Binding |
 |----------|--------:|----:|----:|---------:|---------:|---------|
 | energy_kcal | 750.0000 | 750.000 | 850.000 | 0.0000 | 100.0000 | [LB] |
-| protein_g | 40.4671 | 13.800 | 16.100 | 26.6671 | -24.3671 |  |
+| protein_g | 21.0183 | 13.800 | 16.100 | 7.2183 | -4.9183 |  |
 | total_fat_g | 31.1111 | 20.010 | 31.111 | 11.1011 | 0.0000 | [UB] |
-| carbohydrates_g | 79.9539 | 39.000 | 45.500 | 40.9539 | -34.4539 |  |
-| dietary_fiber_g | 8.4929 | 7.800 | 9.100 | 0.6929 | 0.6071 |  |
-| sugars_g | 16.0306 | — | 20.000 | — | 3.9694 |  |
-| saturated_fat_g | 7.2688 | — | 8.889 | — | 1.6201 |  |
-| monounsaturated_fat_g | 9.5720 | — | — | — | — |  |
-| polyunsaturated_fat_g | 11.5475 | — | — | — | — |  |
-| cholesterol_mg | 100.3355 | — | — | — | — |  |
+| carbohydrates_g | 100.3964 | 39.000 | 45.500 | 61.3964 | -54.8964 |  |
+| dietary_fiber_g | 10.8056 | 7.800 | 9.100 | 3.0056 | -1.7056 |  |
+| sugars_g | 8.3916 | — | 20.000 | — | 11.6084 |  |
+| saturated_fat_g | 6.2575 | — | 8.889 | — | 2.6314 |  |
+| monounsaturated_fat_g | 8.6308 | — | — | — | — |  |
+| polyunsaturated_fat_g | 13.9719 | — | — | — | — |  |
+| cholesterol_mg | 37.1228 | — | — | — | — |  |
 | calcium_mg | 390.0000 | 390.000 | 455.000 | 0.0000 | 65.0000 | [LB] |
-| iron_mg | 4.6545 | 4.500 | 5.250 | 0.1545 | 0.5955 |  |
-| magnesium_mg | 171.3631 | 108.000 | 126.000 | 63.3631 | -45.3631 |  |
-| phosphorus_mg | 622.5393 | 375.000 | 437.500 | 247.5393 | -185.0393 |  |
-| potassium_mg | 993.3724 | 690.000 | 805.000 | 303.3724 | -188.3724 |  |
-| sodium_mg | 354.0809 | — | 1280.000 | — | 925.9191 |  |
-| zinc_mg | 4.3504 | 2.700 | 3.150 | 1.6504 | -1.2004 |  |
-| vitamin_a_ug_rae | 263.8772 | 210.000 | 245.000 | 53.8772 | -18.8772 |  |
+| iron_mg | 4.6626 | 4.500 | 5.250 | 0.1626 | 0.5874 |  |
+| magnesium_mg | 187.7245 | 108.000 | 126.000 | 79.7245 | -61.7245 |  |
+| phosphorus_mg | 509.0856 | 375.000 | 437.500 | 134.0856 | -71.5856 |  |
+| potassium_mg | 775.6199 | 690.000 | 805.000 | 85.6199 | 29.3801 |  |
+| sodium_mg | 377.3216 | — | 1280.000 | — | 902.6784 |  |
+| zinc_mg | 3.1590 | 2.700 | 3.150 | 0.4590 | -0.0090 | [UB] |
+| vitamin_a_ug_rae | 227.9106 | 210.000 | 245.000 | 17.9106 | 17.0894 |  |
 | vitamin_d_ug | 4.5000 | 4.500 | 5.250 | 0.0000 | 0.7500 | [LB] |
-| vitamin_e_mg_ate | 4.5000 | 4.500 | 5.250 | 0.0000 | 0.7500 | [LB] |
-| vitamin_k_ug | 261.1429 | 22.500 | 26.250 | 238.6429 | -234.8929 |  |
-| vitamin_c_mg | 30.4976 | 19.500 | 22.750 | 10.9976 | -7.7476 |  |
-| thiamin_b1_mg | 0.4750 | 0.300 | 0.350 | 0.1750 | -0.1250 |  |
-| riboflavin_b2_mg | 0.6773 | 0.300 | 0.350 | 0.3773 | -0.3273 |  |
-| niacin_b3_mg | 11.9710 | 4.200 | 4.900 | 7.7710 | -7.0710 |  |
-| vitamin_b6_mg | 0.9178 | 0.360 | 0.420 | 0.5578 | -0.4978 |  |
+| vitamin_e_mg_ate | 4.5000 | 4.500 | 5.250 | -0.0000 | 0.7500 | [LB] |
+| vitamin_k_ug | 279.6003 | 22.500 | 26.250 | 257.1003 | -253.3503 |  |
+| vitamin_c_mg | 21.9961 | 19.500 | 22.750 | 2.4961 | 0.7539 |  |
+| thiamin_b1_mg | 0.5309 | 0.300 | 0.350 | 0.2309 | -0.1809 |  |
+| riboflavin_b2_mg | 0.5952 | 0.300 | 0.350 | 0.2952 | -0.2452 |  |
+| niacin_b3_mg | 6.5541 | 4.200 | 4.900 | 2.3541 | -1.6541 |  |
+| vitamin_b6_mg | 0.7022 | 0.360 | 0.420 | 0.3422 | -0.2822 |  |
 | folate_ug_dfe | 120.0000 | 120.000 | 140.000 | 0.0000 | 20.0000 | [LB] |
-| vitamin_b12_ug | 1.7387 | 0.720 | 0.840 | 1.0187 | -0.8987 |  |
-| selenium_ug | 39.5902 | 16.500 | 19.250 | 23.0902 | -20.3402 |  |
+| vitamin_b12_ug | 1.4860 | 0.720 | 0.840 | 0.7660 | -0.6460 |  |
+| selenium_ug | 25.2574 | 16.500 | 19.250 | 8.7574 | -6.0074 |  |
 
 ## Summary
 
-- **Minimum cost:** $1.0198 per lunch
-- **Foods selected:** 10 / 204 available
-- **Highest cost item:** Collard Greens, Raw
+- **Minimum cost:** $1.0610 per lunch
+- **Foods selected:** 8 / 204 available
+- **Highest cost item:** Cornmeal, Whole Grain, Yellow (dry)
 
 **Binding lower bounds** (scarce nutrients driving cost up):
 
@@ -75,3 +73,4 @@ The LP selected these foods and gram quantities to satisfy all nutritional const
 **Binding upper bounds** (limits on cheap food usage):
 
 - total_fat_g
+- zinc_mg

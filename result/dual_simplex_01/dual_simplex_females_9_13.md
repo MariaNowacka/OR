@@ -1,11 +1,11 @@
 # Dual Simplex Analysis — Females 9 13
 
-**Baseline cost (no group caps):** $0.773432 USD  
-**Capped cost (after dual simplex):** $0.900184 USD  
-**Cost of acceptability:** +$0.126752 USD (+16.4%)  
-**Baseline iterations:** 14  
-**Capped iterations:** 25  
-**Extra pivots (dual simplex):** +11
+**Baseline cost (no group caps):** $0.770043 USD  
+**Capped cost (after dual simplex):** $0.941642 USD  
+**Cost of acceptability:** +$0.171599 USD (+22.3%)  
+**Baseline iterations:** 19  
+**Capped iterations:** 29  
+**Extra pivots (dual simplex):** +10
 
 ## Primal Infeasibility Check (Baseline vs Group Caps)
 
@@ -24,17 +24,15 @@ Positive violation = dual simplex initialisation condition met.
 
 | # | Food | Portion (g) | Cost (USD) | Cost share (%) |
 |---|------|------------:|------------:|---------------:|
-| 1 | Salmon, Pink, Canned (drained) | 23.0 | $0.19248 | 21.4% |
-| 2 | Collard Greens, Raw | 41.7 | $0.16540 | 18.4% |
-| 3 | Cornmeal, Whole Grain, Yellow (dry) | 46.8 | $0.13774 | 15.3% |
-| 4 | Milk, 2% Reduced Fat, Fluid | 139.3 | $0.13253 | 14.7% |
-| 5 | Whole Chicken (fresh) | 77.0 | $0.11665 | 13.0% |
-| 6 | Flaxseeds, Whole | 8.7 | $0.06692 | 7.4% |
-| 7 | Mayonnaise, Regular | 4.4 | $0.02251 | 2.5% |
-| 8 | Cheddar Cheese, Natural (sharp) | 1.7 | $0.02128 | 2.4% |
-| 9 | Milk, Almond, Unsweetened (fortified) | 10.7 | $0.01970 | 2.2% |
-| 10 | Watermelon, Raw | 120.0 | $0.01440 | 1.6% |
-| 11 | Vegetable Oil (Soybean/Canola blend) | 3.0 | $0.01057 | 1.2% |
+| 1 | Cornmeal, Whole Grain, Yellow (dry) | 84.3 | $0.24806 | 26.3% |
+| 2 | Salmon, Pink, Canned (drained) | 21.7 | $0.18208 | 19.3% |
+| 3 | Collard Greens, Raw | 41.4 | $0.16403 | 17.4% |
+| 4 | Milk, 2% Reduced Fat, Fluid | 142.9 | $0.13595 | 14.4% |
+| 5 | Cheddar Cheese, Natural (sharp) | 5.8 | $0.07393 | 7.9% |
+| 6 | Mayonnaise, Regular | 14.4 | $0.07284 | 7.7% |
+| 7 | Flaxseeds, Whole | 5.3 | $0.04100 | 4.4% |
+| 8 | Milk, Almond, Unsweetened (fortified) | 7.1 | $0.01305 | 1.4% |
+| 9 | Vegetable Oil (Soybean/Canola blend) | 3.0 | $0.01057 | 1.1% |
 
 ## Group Cap Feasibility After Dual Simplex
 
@@ -42,7 +40,7 @@ Positive violation = dual simplex initialisation condition met.
 |-------|--------:|------:|------:|:---------------:|
 | fluid_milk | 150 g | 150.00 g | 0.00 g | OK |
 | cooking_oils | 3 g | 3.00 g | 0.00 g | OK |
-| grain_products | 120 g | 46.83 g | 73.17 g | OK |
-| leafy_veg | 80 g | 41.72 g | 38.28 g | OK |
-| protein_foods | 100 g | 100.00 g | 0.00 g | OK |
-| fruits | 120 g | 120.00 g | 0.00 g | OK |
+| grain_products | 120 g | 84.34 g | 35.66 g | OK |
+| leafy_veg | 80 g | 41.37 g | 38.63 g | OK |
+| protein_foods | 100 g | 21.77 g | 78.23 g | OK |
+| fruits | 120 g | 0.00 g | 120.00 g | OK |

@@ -1,10 +1,10 @@
 # Dual Simplex Analysis — Males 9 13
 
-**Baseline cost (no group caps):** $0.796206 USD  
-**Capped cost (after dual simplex):** $0.903599 USD  
-**Cost of acceptability:** +$0.107393 USD (+13.5%)  
-**Baseline iterations:** 19  
-**Capped iterations:** 29  
+**Baseline cost (no group caps):** $0.791513 USD  
+**Capped cost (after dual simplex):** $0.948933 USD  
+**Cost of acceptability:** +$0.157420 USD (+19.9%)  
+**Baseline iterations:** 27  
+**Capped iterations:** 37  
 **Extra pivots (dual simplex):** +10
 
 ## Primal Infeasibility Check (Baseline vs Group Caps)
@@ -24,17 +24,16 @@ Positive violation = dual simplex initialisation condition met.
 
 | # | Food | Portion (g) | Cost (USD) | Cost share (%) |
 |---|------|------------:|------------:|---------------:|
-| 1 | Salmon, Pink, Canned (drained) | 23.6 | $0.19719 | 21.8% |
-| 2 | Collard Greens, Raw | 38.2 | $0.15133 | 16.7% |
-| 3 | Cornmeal, Whole Grain, Yellow (dry) | 45.0 | $0.13224 | 14.6% |
-| 4 | Milk, 2% Reduced Fat, Fluid | 136.2 | $0.12955 | 14.3% |
-| 5 | Flaxseeds, Whole | 15.1 | $0.11651 | 12.9% |
-| 6 | Whole Chicken (fresh) | 76.4 | $0.11580 | 12.8% |
-| 7 | Milk, Almond, Unsweetened (fortified) | 13.8 | $0.02549 | 2.8% |
-| 8 | Watermelon, Raw | 120.0 | $0.01440 | 1.6% |
-| 9 | Vegetable Oil (Soybean/Canola blend) | 3.0 | $0.01057 | 1.2% |
-| 10 | Mayonnaise, Regular | 1.7 | $0.00857 | 0.9% |
-| 11 | Cheddar Cheese, Natural (sharp) | 0.2 | $0.00193 | 0.2% |
+| 1 | Cornmeal, Whole Grain, Yellow (dry) | 80.9 | $0.23808 | 25.1% |
+| 2 | Salmon, Pink, Canned (drained) | 22.6 | $0.18918 | 19.9% |
+| 3 | Collard Greens, Raw | 38.0 | $0.15070 | 15.9% |
+| 4 | Milk, 2% Reduced Fat, Fluid | 138.9 | $0.13212 | 13.9% |
+| 5 | Flaxseeds, Whole | 15.3 | $0.11821 | 12.5% |
+| 6 | Mayonnaise, Regular | 10.2 | $0.05177 | 5.5% |
+| 7 | Cheddar Cheese, Natural (sharp) | 2.8 | $0.03586 | 3.8% |
+| 8 | Milk, Almond, Unsweetened (fortified) | 11.1 | $0.02050 | 2.2% |
+| 9 | Vegetable Oil (Soybean/Canola blend) | 3.0 | $0.01057 | 1.1% |
+| 10 | Beef Liver | 0.3 | $0.00193 | 0.2% |
 
 ## Group Cap Feasibility After Dual Simplex
 
@@ -42,7 +41,7 @@ Positive violation = dual simplex initialisation condition met.
 |-------|--------:|------:|------:|:---------------:|
 | fluid_milk | 150 g | 150.00 g | 0.00 g | OK |
 | cooking_oils | 3 g | 3.00 g | 0.00 g | OK |
-| grain_products | 120 g | 44.96 g | 75.04 g | OK |
-| leafy_veg | 80 g | 38.17 g | 41.83 g | OK |
-| protein_foods | 100 g | 100.00 g | 0.00 g | OK |
-| fruits | 120 g | 120.00 g | 0.00 g | OK |
+| grain_products | 120 g | 80.95 g | 39.05 g | OK |
+| leafy_veg | 80 g | 38.01 g | 41.99 g | OK |
+| protein_foods | 100 g | 22.94 g | 77.06 g | OK |
+| fruits | 120 g | 0.00 g | 120.00 g | OK |
