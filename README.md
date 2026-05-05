@@ -87,27 +87,52 @@ Consistently binding lower bounds across all groups: `energy_kcal`, `calcium_mg`
 
 Consistently binding upper bounds: `total_fat_g` (AMDR 35 % ceiling), `sugars_g` (DGA 10 % limit)
 
-## Step 01 Sensitivity Analysis
+## Step 01 Dual Simplex
 
--> Dual simplex since there are added constraints
+**Why Dual Simplex**: 
+
+The baseline LP in Step 00 produces a theoretically optimal but unrealistic solution — it concentrates
+as many grams as possible into the cheapest nutrient-dense foods regardless of meal structure. When food
+group acceptability constraints are introduced:
+
+sum_{i in I_g} x_i <= U_g   for all g in G
+
+the baseline optimal solution x* violates these new caps, creating the exact initialisation condition
+for the Dual Simplex Method:
+
+* **Dual feasibility preserved** — adding <= constraints does not affect Row 0 reduced costs,
+  so the baseline basis remains dual feasible throughout.
+
+* **Primal feasibility broken** — x* exceeds the new group caps, so the basis becomes primal infeasible.
+
+**Food group caps applied:**
+
+| Group | Cap (g) | Rationale |
+|---|---|---|
+| Fluid milk (all types combined) | 150 | One standard school carton |
+| Cooking oils | 3 | Incidental cooking use only |
+| Grain products | 120 | One grain serving combined |
+| Leafy vegetables | 80 | One side salad portion |
+| Protein foods | 100 | One protein serving |
+| Fruits | 120 | One fruit serving |
 
 ### Code
 
-* [Step 01 Sensitivity Analysis](https://github.com/MariaNowacka/OR/blob/main/code/01_Sensitivity_Analysis.ipynb)
+* [Step 01 Dual Simplex](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/code/01_Dual_Simplex.ipynb)
 
 ### Results
 
 Ranging tables for objective coefficients and RHS constraints per age-sex group.
 
-* [Sensitivity — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_children_4_8_MF.md)
+* [Dual Simplex — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_children_4_8_MF.md)
 
-* [Sensitivity — Males 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_males_9_13.md)
+* [Dual Simplex — Males 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_males_9_13.md)
 
-* [Sensitivity — Females 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_females_9_13.md)
+* [Dual Simplex — Females 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_females_9_13.md)
 
-* [Sensitivity — Males 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_males_14_18.md)
+* [Dual Simplex — Males 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_males_14_18.md)
 
-* [Sensitivity — Females 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_females_14_18.md)
+* [Dual Simplex — Females 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_females_14_18.md)
 
 ## Step 02 Duality
 
