@@ -118,21 +118,21 @@ for the Dual Simplex Method:
 
 ### Code
 
-* [Step 01 Dual Simplex](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/code/01_Dual_Simplex.ipynb)
+* [Step 01 Dual Simplex](https://github.com/MariaNowacka/OR/blob/main/code/01_Dual_Simplex.ipynb)
 
 ### Results
 
 Ranging tables for objective coefficients and RHS constraints per age-sex group.
 
-* [Dual Simplex — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_children_4_8_MF.md)
+* [Dual Simplex — Children 4–8](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_children_4_8_MF.md)
 
-* [Dual Simplex — Males 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_males_9_13.md)
+* [Dual Simplex — Males 9–13](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_males_9_13.md)
 
-* [Dual Simplex — Females 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_females_9_13.md)
+* [Dual Simplex — Females 9–13](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_females_9_13.md)
 
-* [Dual Simplex — Males 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_males_14_18.md)
+* [Dual Simplex — Males 14–18](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_males_14_18.md)
 
-* [Dual Simplex — Females 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/dual_simplex_01/dual_simplex_females_14_18.md)
+* [Dual Simplex — Females 14–18](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_females_14_18.md)
 
 ## Step 02 Duality
 
