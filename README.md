@@ -118,7 +118,7 @@ for the Dual Simplex Method:
 
 ### Code
 
-* [Step 01 Dual Simplex](https://github.com/MariaNowacka/OR/blob/main/code/01_Dual_Simplex.ipynb)
+* [Step 01 Dual Simplex](https://github.com/MariaNowacka/OR/blob/main/code/01_Duality_Simplex.ipynb)
 
 ### Results
 
