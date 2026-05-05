@@ -89,15 +89,7 @@ Consistently binding upper bounds: `total_fat_g` (AMDR 35 % ceiling), `sugars_g`
 
 ## Step 01 Sensitivity Analysis
 
-Investigates how changes in the objective coefficients ($\Delta c$) and constraint
-right-hand sides ($\Delta b$) affect the optimal solution.
-
-**Range of optimality** ($\Delta c$): how much can food prices change before the
-optimal menu changes? Identifies which food prices the solution is most sensitive to.
-
-**Range of feasibility** ($\Delta b$): how much can each DRI bound change before
-the current basis is no longer feasible? Quantifies the cost impact of policy changes
-to nutritional standards.
+-> Dual simplex since there are added constraints
 
 ### Code
 
