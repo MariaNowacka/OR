@@ -159,39 +159,13 @@ slackness check for each age-sex group.
 Most expensive constraint to tighten across all groups: `vitamin_d_ug`
 (shadow price ≈ $0.062 per µg increase in requirement for males 14–18)
 
-## Step 03 Upper Bound Technique
-
-Applies tighter, food-category-specific portion caps to address the liquid-dominance
-problem identified in Step 00, where the unconstrained LP selected unrealistically
-large quantities of fluid milk and vegetable oil.
-
-**Motivation**: the Step 00 solution (e.g. 270 g milk + 90 g dry cornmeal) is
-nutritionally valid but not a realistic school lunch menu. The Upper Bound Technique
-is the formal mechanism for handling bounded variables
-efficiently within simplex without expanding the constraint matrix.
-
-**Category-specific caps applied**:
-
-* Fluid milk: ≤ 240 g (one standard 8 fl oz school carton)
-
-* Cooking oils: ≤ 10 g (cooking use only, not a served dish)
-
-* Dry grains / raw ingredients: ≤ 80 g (cooked equivalent portion)
-
-* All other foods: ≤ 200 g
-
-The tighter bounds force the LP to source nutrients from a broader range of foods,
-producing a more diverse and realistic menu at an increased but bounded cost.
+## Step 03
 
 ### Code
 
 * [Step 03 Upper Bound Technique](https://github.com/MariaNowacka/OR/blob/main/code/03_Upper_Bound_Technique.ipynb)
 
 ### Results
-
-Revised optimal menus under category-specific bounds, cost comparison against
-Step 00 baseline, and analysis of which foods replace milk and cornmeal
-as binding-constraint drivers.
 
 * [Upper Bound — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/upper_bound/ub_children_4_8_MF.md)
 
