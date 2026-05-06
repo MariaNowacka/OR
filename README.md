@@ -87,35 +87,52 @@ Consistently binding lower bounds across all groups: `energy_kcal`, `calcium_mg`
 
 Consistently binding upper bounds: `total_fat_g` (AMDR 35 % ceiling), `sugars_g` (DGA 10 % limit)
 
-## Step 01 Sensitivity Analysis
+## Step 01 Dual Simplex
 
-Investigates how changes in the objective coefficients ($\Delta c$) and constraint
-right-hand sides ($\Delta b$) affect the optimal solution.
+**Why Dual Simplex**: 
 
-**Range of optimality** ($\Delta c$): how much can food prices change before the
-optimal menu changes? Identifies which food prices the solution is most sensitive to.
+The baseline LP in Step 00 produces a theoretically optimal but unrealistic solution — it concentrates
+as many grams as possible into the cheapest nutrient-dense foods regardless of meal structure. When food
+group acceptability constraints are introduced:
 
-**Range of feasibility** ($\Delta b$): how much can each DRI bound change before
-the current basis is no longer feasible? Quantifies the cost impact of policy changes
-to nutritional standards.
+$\sum_{i\in I_g} x_i <= U_g$   for all g in G
+
+the baseline optimal solution x* violates these new caps, creating the exact initialisation condition
+for the Dual Simplex Method:
+
+* **Dual feasibility preserved** — adding <= constraints does not affect Row 0 reduced costs,
+  so the baseline basis remains dual feasible throughout.
+
+* **Primal feasibility broken** — x* exceeds the new group caps, so the basis becomes primal infeasible.
+
+**Food group caps applied:**
+
+| Group | Cap (g) | Rationale |
+|---|---|---|
+| Fluid milk (all types combined) | 150 | One standard school carton |
+| Cooking oils | 3 | Incidental cooking use only |
+| Grain products | 120 | One grain serving combined |
+| Leafy vegetables | 80 | One side salad portion |
+| Protein foods | 100 | One protein serving |
+| Fruits | 120 | One fruit serving |
 
 ### Code
 
-* [Step 01 Sensitivity Analysis](https://github.com/MariaNowacka/OR/blob/main/code/01_Sensitivity_Analysis.ipynb)
+* [Step 01 Dual Simplex](https://github.com/MariaNowacka/OR/blob/main/code/01_Dual_Simplex.ipynb)
 
 ### Results
 
 Ranging tables for objective coefficients and RHS constraints per age-sex group.
 
-* [Sensitivity — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_children_4_8_MF.md)
+* [Dual Simplex — Children 4–8](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_children_4_8_MF.md)
 
-* [Sensitivity — Males 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_males_9_13.md)
+* [Dual Simplex — Males 9–13](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_males_9_13.md)
 
-* [Sensitivity — Females 9–13](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_females_9_13.md)
+* [Dual Simplex — Females 9–13](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_females_9_13.md)
 
-* [Sensitivity — Males 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_males_14_18.md)
+* [Dual Simplex — Males 14–18](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_males_14_18.md)
 
-* [Sensitivity — Females 14–18](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/sensitivity/sensitivity_females_14_18.md)
+* [Dual Simplex — Females 14–18](https://github.com/MariaNowacka/OR/blob/main/result/dual_simplex_01/dual_simplex_females_14_18.md)
 
 ## Step 02 Duality
 
@@ -159,39 +176,13 @@ slackness check for each age-sex group.
 Most expensive constraint to tighten across all groups: `vitamin_d_ug`
 (shadow price ≈ $0.062 per µg increase in requirement for males 14–18)
 
-## Step 03 Upper Bound Technique
-
-Applies tighter, food-category-specific portion caps to address the liquid-dominance
-problem identified in Step 00, where the unconstrained LP selected unrealistically
-large quantities of fluid milk and vegetable oil.
-
-**Motivation**: the Step 00 solution (e.g. 270 g milk + 90 g dry cornmeal) is
-nutritionally valid but not a realistic school lunch menu. The Upper Bound Technique
-is the formal mechanism for handling bounded variables
-efficiently within simplex without expanding the constraint matrix.
-
-**Category-specific caps applied**:
-
-* Fluid milk: ≤ 240 g (one standard 8 fl oz school carton)
-
-* Cooking oils: ≤ 10 g (cooking use only, not a served dish)
-
-* Dry grains / raw ingredients: ≤ 80 g (cooked equivalent portion)
-
-* All other foods: ≤ 200 g
-
-The tighter bounds force the LP to source nutrients from a broader range of foods,
-producing a more diverse and realistic menu at an increased but bounded cost.
+## Step 03
 
 ### Code
 
 * [Step 03 Upper Bound Technique](https://github.com/MariaNowacka/OR/blob/main/code/03_Upper_Bound_Technique.ipynb)
 
 ### Results
-
-Revised optimal menus under category-specific bounds, cost comparison against
-Step 00 baseline, and analysis of which foods replace milk and cornmeal
-as binding-constraint drivers.
 
 * [Upper Bound — Children 4–8](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/result/upper_bound/ub_children_4_8_MF.md)
 
