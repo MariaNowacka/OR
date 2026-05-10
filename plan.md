@@ -8,7 +8,7 @@ the deliverables:
 -> recommended dietary category
 
 ### Presentation structure:
-  - [ ] 01 : recap
+  - [x] 01 : recap
   - [x] 02 : consensus on dataset of the US
   - [ ] 03 : linprog -----> will keep developing     - julian
   - [ ] 04 : extended version of linprog (sensitivity analysis)  
@@ -19,3 +19,16 @@ the deliverables:
   - [ ] 09 : summary
   - [x] 10 : reference
   - [x] 11 : thankyou
+
+Last presentation:
+  - [ ] 01 : recap
+  - [ ] 02 : final lp
+  - [ ] 03 : pareto
+  - [ ] 04 : compare all the results from every approach (best solutions) 
+  - [ ] 05 : maybe additional sensitivity analysis to choose the most stable model
+  - [ ] 06 : I think from Duality we can get which nutrients are the most problematic?
+  - [ ] 07: final conclusion (what we did)
+  - [ ] 08: what can be added/improved
+  - [ ] 09 : 
+  - [ ] 10 : reference
+  - [ ] 11 : thankyou
