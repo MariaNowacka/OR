@@ -21,13 +21,17 @@ the deliverables:
   - [x] 11 : thankyou
 
 Last presentation:
-  - [ ] 01 : recap
-  - [ ] 02 : final lp
-  - [ ] 03 : pareto
-  - [ ] 04 : compare all the results from every approach (best solutions) 
-  - [ ] 05 : maybe additional sensitivity analysis to choose the most stable model
-  - [ ] 06 : I think from Duality we can get which nutrients are the most problematic?
-  - [ ] 07: final conclusion (what we did)
+  - [ ] 00 : outline Julian
+  - [ ] 001 : motivation for the topic 
+  - [ ] 002 : dataset overview J`skY
+  - [ ] **010 : Methodology**
+  - [ ] 011 : final lp
+  - [ ] 012 : Wera's solution
+  - [ ] 013 : pareto Marysia
+  - [ ] **020 : Result**
+  - [ ] 021 : compare all the results from every approach (best solutions) 
+  - [ ] 022 : maybe additional sensitivity analysis to choose the most stable(?) model (food price change) +Marysia will think 
+  - [ ] 023: final conclusion (what we did)
   - [ ] 08: what can be added/improved
   - [ ] 09 : 
   - [ ] 10 : reference
